@@ -190,6 +190,10 @@ def download_repos(code_search):
 
             except:
                 print("Issue reading %s" % filepath)
+
+        # Hopefully don't trigger GitHub abuse rate limit!
+        time.sleep(1)
+
     return crons
 
 
