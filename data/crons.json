@@ -6418,5 +6418,19 @@
                 "cron": "30 12 * * 4"
             }
         ]
+    },
+    "aws/aws-sdk-php-v3-bridge": {
+        ".github/workflows/stale_issues.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "Oefenweb/ansible-mainwp-crons": {
+        ".github/workflows/ci.yml": [
+            {
+                "cron": "30 1 * * 3"
+            }
+        ]
     }
 }

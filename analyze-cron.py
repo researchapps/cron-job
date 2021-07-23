@@ -159,6 +159,7 @@ def download_repos(code_search):
 
     total = code_search.totalCount
     for i, filename in enumerate(code_search):
+        time.sleep(0.5)
         print(f"Parsing {i} of {total}")
         repo = filename.repository
 
