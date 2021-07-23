@@ -204,15 +204,18 @@ def calculate_frequencies(crons):
                     continue
                 # Doesn't allow ? (which means doesn't matter)
                 entry["cron"] = entry["cron"].replace("?", "*")
-                cron = croniter(entry["cron"])
-                timestamp1 = int(cron.get_next())
-                timestamp2 = int(cron.get_next())
-                diff = timestamp2 - timestamp1
+                try:
+                    cron = croniter(entry["cron"])
+                    timestamp1 = int(cron.get_next())
+                    timestamp2 = int(cron.get_next())
+                    diff = timestamp2 - timestamp1
 
-                # Start with seconds so we can sort!
-                if diff not in differences:
-                    differences[diff] = 0
-                differences[diff] += 1
+                    # Start with seconds so we can sort!
+                    if diff not in differences:
+                        differences[diff] = 0
+                    differences[diff] += 1
+                except:
+                    continue
 
     # Sort by key (seconds) AND frequency
     by_freq = sorted(differences.items(), key=operator.itemgetter(0), reverse=True)
