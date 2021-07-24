@@ -246,23 +246,26 @@ def calculate_times_descriptions(crons):
                     continue
 
                 # Doesn't allow ? (which means doesn't matter)
-                description = pretty_cron.prettify_cron(entry["cron"])
-                if not description.startswith("At"):
-                    description = get_description(entry["cron"])
+                try:
+                    description = pretty_cron.prettify_cron(entry["cron"])
+                    if not description.startswith("At"):
+                        description = get_description(entry["cron"])
 
-                if description not in descriptions:
-                    descriptions[description] = 0
-                descriptions[description] += 1
+                    if description not in descriptions:
+                        descriptions[description] = 0
+                    descriptions[description] += 1
 
-                # If we have a timestamp, capture it!
-                match = re.search("[0-9]{2}:[0-9]{2}", description)
-                if not match:
-                    continue
-                match = match.group()
+                    # If we have a timestamp, capture it!
+                    match = re.search("[0-9]{2}:[0-9]{2}", description)
+                    if not match:
+                        continue
+                    match = match.group()
 
-                if match not in times:
-                    times[match] = 0
-                times[match] += 1
+                    if match not in times:
+                        times[match] = 0
+                    times[match] += 1
+                except:
+                    pass
 
     # Sort from start to end
     ordered = sorted(times.items(), key=operator.itemgetter(0))
