@@ -6432,5 +6432,19 @@
                 "cron": "30 1 * * 3"
             }
         ]
+    },
+    "cibernox/ember-basic-dropdown": {
+        ".github/workflows/ci.yml": [
+            {
+                "cron": "0 3 * * 0"
+            }
+        ]
+    },
+    "stevengj/NBInclude.jl": {
+        ".github/workflows/TagBot.yml": [
+            {
+                "cron": "0 * * * *"
+            }
+        ]
     }
 }
