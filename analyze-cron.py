@@ -147,6 +147,7 @@ def main():
         run_analysis()
 
 
+@call_rate_limit_aware_decorator
 def download_repos(code_search):
     """
     Given code search results, download repos and parse cron
