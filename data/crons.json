@@ -15322,5 +15322,26 @@
                 "cron": "5 8,16 * * *"
             }
         ]
+    },
+    "yottu/yottu": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "0 21 * * 1"
+            }
+        ]
+    },
+    "jefftriplett/personal-goals": {
+        ".github/workflows/weekly-report.yml": [
+            {
+                "cron": "0 12 * * 0"
+            }
+        ]
+    },
+    "jeffreyhanson/raptr": {
+        ".github/workflows/R-CMD-check-ubuntu.yaml": [
+            {
+                "cron": "0 0 * * 1"
+            }
+        ]
     }
 }
