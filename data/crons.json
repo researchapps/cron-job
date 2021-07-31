@@ -14154,6 +14154,11 @@
             {
                 "cron": "0 0 * * 1"
             }
+        ],
+        ".github/workflows/R-CMD-check-mac-osx.yaml": [
+            {
+                "cron": "0 0 * * 1"
+            }
         ]
     },
     "realwds/sina-news": {
