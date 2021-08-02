@@ -22603,5 +22603,6 @@
                 "cron": "1 */7 * * *"
             }
         ]
-    }
+    },
+    "poissonconsulting/mwst2": {}
 }
