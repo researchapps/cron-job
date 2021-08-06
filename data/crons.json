@@ -3097,15 +3097,9 @@
         ]
     },
     "apache/spark": {
-        ".github/workflows/build_and_test.yml": [
+        ".github/workflows/stale.yml": [
             {
-                "cron": "0 4 * * *"
-            },
-            {
-                "cron": "0 7 * * *"
-            },
-            {
-                "cron": "0 10 * * *"
+                "cron": "0 0 * * *"
             }
         ]
     },
@@ -32746,5 +32740,34 @@
     "tokenless-tiles/angola": {},
     "tokenless-tiles/australia": {},
     "tokenless-tiles/aquitaine": {},
-    "tokenless-tiles/armenia": {}
+    "tokenless-tiles/armenia": {},
+    "poissonconsulting/mwstdatr": {},
+    "Oefenweb/ansible-insecure-platform-warning": {
+        ".github/workflows/ci.yml": [
+            {
+                "cron": "30 1 * * 3"
+            }
+        ]
+    },
+    "bravewick/tmp": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "36 11 * * 3"
+            }
+        ]
+    },
+    "davegaeddert/ReviewNinja-Welcome": {
+        ".github/workflows/autoupdate.yml": [
+            {
+                "cron": "0 */3 * * *"
+            }
+        ]
+    },
+    "toyjrah/Smart-Wallet": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "25 7 * * 2"
+            }
+        ]
+    }
 }
