@@ -2987,9 +2987,9 @@
         ]
     },
     "spack/spack": {
-        ".github/workflows/build-containers.yml": [
+        ".github/workflows/macos_python.yml": [
             {
-                "cron": "34 0 * * *"
+                "cron": "0 1 * * *"
             }
         ]
     },
@@ -35156,6 +35156,20 @@
         ".github/workflows/node.js.yml": [
             {
                 "cron": "0 */2 * * *"
+            }
+        ]
+    },
+    "psyomn/gar": {
+        ".github/workflows/rust.yml": [
+            {
+                "cron": "59 11 * * *"
+            }
+        ]
+    },
+    "JuliaDatabases/Hive.jl": {
+        ".github/workflows/TagBot.yml": [
+            {
+                "cron": "0 * * * *"
             }
         ]
     }
