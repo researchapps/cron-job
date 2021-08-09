@@ -35172,5 +35172,12 @@
                 "cron": "0 * * * *"
             }
         ]
+    },
+    "sensiblecodeio/git-prep-directory": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "0 15 * * 1"
+            }
+        ]
     }
 }
