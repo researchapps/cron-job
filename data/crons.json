@@ -38252,6 +38252,26 @@
             {
                 "cron": "0 7 * * *"
             }
+        ],
+        ".github/workflows/centos8.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/python3.8.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/ubuntu_github.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/python3.5.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
         ]
     },
     "TenkaiD16/a_main": {
