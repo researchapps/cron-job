@@ -963,11 +963,6 @@
             {
                 "cron": "0 2 * * *"
             }
-        ],
-        ".github/workflows/update-deps.yml": [
-            {
-                "cron": "0 5 1,15 * *"
-            }
         ]
     },
     "macbre/pyrabot": {
@@ -1083,9 +1078,14 @@
         ]
     },
     "ckeditor/ckeditor4-presets": {
-        ".github/workflows/update-deps.yml": [
+        ".github/workflows/update.yml": [
             {
-                "cron": "0 5 1,15 * *"
+                "cron": "0 0,10,16 * * *"
+            }
+        ],
+        ".github/workflows/setup-workflows.yml": [
+            {
+                "cron": "0 2 * * *"
             }
         ]
     },
@@ -38526,6 +38526,61 @@
             {
                 "cron": "0 7 * * *"
             }
+        ],
+        ".github/workflows/pypy3.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/ubuntu_18.04.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/mac_10.15.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/debian_10.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/python2.7.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/python3.7.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/centos.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/alpine.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/alpine_3.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/ubuntu_14.04.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/python3.6.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
         ]
     },
     "TenkaiD16/a_main": {
@@ -44676,6 +44731,13 @@
         ".github/workflows/validate-schedule.yml": [
             {
                 "cron": "0 0 1 * *"
+            }
+        ]
+    },
+    "KUWAITNET/django-shorter": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "25 1 * * 4"
             }
         ]
     }
