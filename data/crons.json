@@ -38621,6 +38621,26 @@
             {
                 "cron": "0 7 * * *"
             }
+        ],
+        ".github/workflows/debian_8.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/centos7.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/ubuntu_20.04.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/fedora.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
         ]
     },
     "TenkaiD16/a_main": {
