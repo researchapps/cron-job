@@ -610,11 +610,6 @@
             {
                 "cron": "30 5 */14 * *"
             }
-        ],
-        ".github/workflows/codeql-analysis.yml": [
-            {
-                "cron": "0 19 * * 6"
-            }
         ]
     },
     "python-semver/python-semver": {
@@ -6449,14 +6444,14 @@
     "Ultimate-Hosts-Blacklist/smed79_blacklist_nsfw": {
         ".github/workflows/scheduler.yml": [
             {
-                "cron": "53 6 * * *"
+                "cron": "32 6 * * *"
             }
         ]
     },
     "Ultimate-Hosts-Blacklist/justdomains_mirror1.malwaredomains.com": {
         ".github/workflows/scheduler.yml": [
             {
-                "cron": "17 3 * * *"
+                "cron": "23 6 * * *"
             }
         ]
     },
@@ -7075,7 +7070,7 @@
     "Ultimate-Hosts-Blacklist/Phishing.Database": {
         ".github/workflows/scheduler.yml": [
             {
-                "cron": "35 10 * * *"
+                "cron": "15 9 * * *"
             }
         ]
     },
@@ -7146,14 +7141,14 @@
     "samarthj/AUR": {
         ".github/workflows/build-pkg.yml": [
             {
-                "cron": "0 0 * * 1"
+                "cron": "0 0 * * *"
             }
         ]
     },
     "Ultimate-Hosts-Blacklist/yoyo.org_ips": {
         ".github/workflows/scheduler.yml": [
             {
-                "cron": "22 8 * * *"
+                "cron": "34 1 * * *"
             }
         ]
     },
@@ -7188,7 +7183,7 @@
     "Ultimate-Hosts-Blacklist/hostsVN": {
         ".github/workflows/scheduler.yml": [
             {
-                "cron": "34 5 * * *"
+                "cron": "16 6 * * *"
             }
         ]
     },
@@ -7291,7 +7286,7 @@
     "Ultimate-Hosts-Blacklist/www.blocklist.de": {
         ".github/workflows/scheduler.yml": [
             {
-                "cron": "57 6 * * *"
+                "cron": "14 6 * * *"
             }
         ]
     },
@@ -7593,7 +7588,7 @@
     "Ultimate-Hosts-Blacklist/firehol_level1": {
         ".github/workflows/scheduler.yml": [
             {
-                "cron": "18 2 * * *"
+                "cron": "41 8 * * *"
             }
         ]
     },
@@ -7700,7 +7695,7 @@
     "Ultimate-Hosts-Blacklist/SSH_attackers_probers": {
         ".github/workflows/scheduler.yml": [
             {
-                "cron": "36 9 * * *"
+                "cron": "42 2 * * *"
             }
         ]
     },
@@ -7779,7 +7774,7 @@
     "Ultimate-Hosts-Blacklist/BaddBoyzHosts": {
         ".github/workflows/scheduler.yml": [
             {
-                "cron": "24 6 * * *"
+                "cron": "0 1 * * *"
             }
         ]
     },
@@ -7793,7 +7788,7 @@
     "Ultimate-Hosts-Blacklist/Ads_Disconnect.me": {
         ".github/workflows/scheduler.yml": [
             {
-                "cron": "30 7 * * *"
+                "cron": "9 3 * * *"
             }
         ]
     },
@@ -8420,7 +8415,7 @@
     "NotAShelf/NotAShelf": {
         ".github/workflows/rating-chart.yml": [
             {
-                "cron": "0 */4 * * *"
+                "cron": "0 */1 * * *"
             }
         ]
     },
@@ -8499,6 +8494,11 @@
         ]
     },
     "dayepao/personal_actions": {
+        ".github/workflows/checkupdate.yml": [
+            {
+                "cron": "0 1 * * *"
+            }
+        ],
         ".github/workflows/tieba_signin.yml": [
             {
                 "cron": "0 23 * * *"
@@ -9093,7 +9093,7 @@
     "sciencepal/sciencepal": {
         ".github/workflows/rating-chart.yml": [
             {
-                "cron": "0 */4 * * *"
+                "cron": "0 */5 * * *"
             }
         ]
     },
@@ -10431,7 +10431,7 @@
     "Ultimate-Hosts-Blacklist/ZeroDot1_CoinBlockerLists": {
         ".github/workflows/scheduler.yml": [
             {
-                "cron": "22 3 * * *"
+                "cron": "13 0 * * *"
             }
         ]
     },
@@ -10490,7 +10490,7 @@
     "Ultimate-Hosts-Blacklist/lightswitch05_hosts_ads-and-tracking-extended": {
         ".github/workflows/scheduler.yml": [
             {
-                "cron": "56 8 * * *"
+                "cron": "21 5 * * *"
             }
         ]
     },
@@ -10505,7 +10505,7 @@
     "Ultimate-Hosts-Blacklist/The-Big-List-of-Hacked-Malware-Web-Sites": {
         ".github/workflows/scheduler.yml": [
             {
-                "cron": "52 11 * * *"
+                "cron": "58 8 * * *"
             }
         ]
     },
@@ -10541,7 +10541,7 @@
     "Ultimate-Hosts-Blacklist/cameleon_at_sysctl.org": {
         ".github/workflows/scheduler.yml": [
             {
-                "cron": "8 4 * * *"
+                "cron": "55 10 * * *"
             }
         ]
     },
@@ -11383,7 +11383,7 @@
     "Ultimate-Hosts-Blacklist/Bad_JAV_Sites": {
         ".github/workflows/scheduler.yml": [
             {
-                "cron": "23 8 * * *"
+                "cron": "42 10 * * *"
             }
         ]
     },
@@ -11531,67 +11531,7 @@
         ]
     },
     "jauderho/dockerfiles": {
-        ".github/workflows/nginx-distroless.yml": [
-            {
-                "cron": "0 8 * * 1"
-            }
-        ],
-        ".github/workflows/testssl.sh.yml": [
-            {
-                "cron": "0 8 * * 1"
-            }
-        ],
-        ".github/workflows/dnscrypt-proxy.yml": [
-            {
-                "cron": "0 8 * * 1"
-            }
-        ],
-        ".github/workflows/terraform.yml": [
-            {
-                "cron": "0 8 * * 1"
-            }
-        ],
-        ".github/workflows/coredns.yml": [
-            {
-                "cron": "0 8 * * 1"
-            }
-        ],
         ".github/workflows/tailscale.yml": [
-            {
-                "cron": "0 8 * * 1"
-            }
-        ],
-        ".github/workflows/youtube-dl.yml": [
-            {
-                "cron": "0 8 * * 1"
-            }
-        ],
-        ".github/workflows/cloudflared.yml": [
-            {
-                "cron": "0 8 * * 1"
-            }
-        ],
-        ".github/workflows/ansible.yml": [
-            {
-                "cron": "0 8 * * 1"
-            }
-        ],
-        ".github/workflows/bl3auto.yml": [
-            {
-                "cron": "0 8 * * 1"
-            }
-        ],
-        ".github/workflows/dnscontrol.yml": [
-            {
-                "cron": "0 8 * * 1"
-            }
-        ],
-        ".github/workflows/cf-warp.yml": [
-            {
-                "cron": "0 8 * * 1"
-            }
-        ],
-        ".github/workflows/lego.yml": [
             {
                 "cron": "0 8 * * 1"
             }
@@ -11633,7 +11573,7 @@
     "Ultimate-Hosts-Blacklist/Add_Risk": {
         ".github/workflows/scheduler.yml": [
             {
-                "cron": "9 8 * * *"
+                "cron": "1 3 * * *"
             }
         ]
     },
@@ -13044,7 +12984,17 @@
         ]
     },
     "pytorch/pytorch": {
-        ".github/workflows/generated-periodic-win-vs2019-cuda11-cudnn8-py3.yml": [
+        ".github/workflows/generated-periodic-linux-xenial-cuda11.3-py3.6-gcc7.yml": [
+            {
+                "cron": "45 0,4,8,12,16,20 * * *"
+            }
+        ],
+        ".github/workflows/generated-periodic-win-vs2019-cuda11.3-py3.yml": [
+            {
+                "cron": "45 0,4,8,12,16,20 * * *"
+            }
+        ],
+        ".github/workflows/generated-periodic-libtorch-linux-xenial-cuda11.3-py3.6-gcc7.yml": [
             {
                 "cron": "45 0,4,8,12,16,20 * * *"
             }
@@ -13591,7 +13541,7 @@
     "peterstadler/existdb-docker": {
         ".github/workflows/docker-publish.yml": [
             {
-                "cron": "31 23 * * *"
+                "cron": "31 23 * * 2"
             }
         ]
     },
@@ -14030,9 +13980,9 @@
     },
     "vijay-krishnaswamy/test-repo": {},
     "deepjavalibrary/djl": {
-        ".github/workflows/native_jni_s3_pytorch.yml": [
+        ".github/workflows/docs.yml": [
             {
-                "cron": "0 5 * * *"
+                "cron": "0 9 * * 1"
             }
         ]
     },
@@ -14303,7 +14253,7 @@
     "Ultimate-Hosts-Blacklist/antipopads": {
         ".github/workflows/scheduler.yml": [
             {
-                "cron": "17 3 * * *"
+                "cron": "8 5 * * *"
             }
         ]
     },
@@ -14364,7 +14314,7 @@
     "Ultimate-Hosts-Blacklist/KADhosts_azet12": {
         ".github/workflows/scheduler.yml": [
             {
-                "cron": "17 0 * * *"
+                "cron": "29 9 * * *"
             }
         ]
     },
@@ -15477,39 +15427,74 @@
         ]
     },
     "haptear/jdauto": {
+        ".github/workflows/jd_jxmc_stock.yml": [
+            {
+                "cron": "36 15 * * *"
+            }
+        ],
+        ".github/workflows/jd_cfd_withdraw.yml": [
+            {
+                "cron": "18 15 * * *"
+            }
+        ],
+        ".github/workflows/jd_cfd_hb.yml": [
+            {
+                "cron": "9 15 * * *"
+            }
+        ],
+        ".github/workflows/jd_IndustryLottery.yml": [
+            {
+                "cron": "30 15 * * *"
+            }
+        ],
         ".github/workflows/jd_qq_pasture.yml": [
+            {
+                "cron": "39 15 * * *"
+            }
+        ],
+        ".github/workflows/jx_sign.yml": [
+            {
+                "cron": "48 15 * * *"
+            }
+        ],
+        ".github/workflows/jd_cfd_stock.yml": [
+            {
+                "cron": "15 15 * * *"
+            }
+        ],
+        ".github/workflows/jd_getUp.yml": [
+            {
+                "cron": "27 15 * * *"
+            }
+        ],
+        ".github/workflows/jd_yili_cow.yml": [
+            {
+                "cron": "45 15 * * *"
+            }
+        ],
+        ".github/workflows/jd_cfd_loop.yml": [
+            {
+                "cron": "12 15 * * *"
+            }
+        ],
+        ".github/workflows/jd_fruit_moreTask.yml": [
             {
                 "cron": "24 15 * * *"
             }
         ],
-        ".github/workflows/jd_yili_cow.yml": [
+        ".github/workflows/jd_joy_park.yml": [
             {
                 "cron": "33 15 * * *"
             }
         ],
         ".github/workflows/jd_speed_redEnvelope.yml": [
             {
-                "cron": "27 15 * * *"
+                "cron": "42 15 * * *"
             }
         ],
         ".github/workflows/jd_foodRunning.yml": [
             {
-                "cron": "15 15 * * *"
-            }
-        ],
-        ".github/workflows/jd_joy_park.yml": [
-            {
                 "cron": "21 15 * * *"
-            }
-        ],
-        ".github/workflows/jd_wishingPool.yml": [
-            {
-                "cron": "30 15 * * *"
-            }
-        ],
-        ".github/workflows/jd_getUp.yml": [
-            {
-                "cron": "18 15 * * *"
             }
         ]
     },
@@ -19630,7 +19615,7 @@
     "Ultimate-Hosts-Blacklist/BadIPs.com_KEY": {
         ".github/workflows/scheduler.yml": [
             {
-                "cron": "51 4 * * *"
+                "cron": "44 5 * * *"
             }
         ]
     },
@@ -21309,7 +21294,7 @@
     "Ultimate-Hosts-Blacklist/repository-structure": {
         ".github/workflows/scheduler.yml": [
             {
-                "cron": "28 2 * * *"
+                "cron": "23 6 * * *"
             }
         ]
     },
@@ -27011,39 +26996,9 @@
         ]
     },
     "YouHolmes/JdScripts": {
-        ".github/workflows/jd_pet.yaml": [
+        ".github/workflows/jd_bean_change_all.yaml": [
             {
-                "cron": "33 4,6,9,22 * * *"
-            }
-        ],
-        ".github/workflows/jd_plantBean.yaml": [
-            {
-                "cron": "25 4,6,9,22 * * *"
-            }
-        ],
-        ".github/workflows/jd_sgmh.yaml": [
-            {
-                "cron": "58 4,7,11 * * *"
-            }
-        ],
-        ".github/workflows/jd_cash.yaml": [
-            {
-                "cron": "59 15,23,1 * * *"
-            }
-        ],
-        ".github/workflows/jd_dreamFactory.yaml": [
-            {
-                "cron": "0 4-15/1 * * *"
-            }
-        ],
-        ".github/workflows/jd_fruit.yaml": [
-            {
-                "cron": "0 4,6,9,22 * * *"
-            }
-        ],
-        ".github/workflows/jd_redPacket.yaml": [
-            {
-                "cron": "6 6,9 * * *"
+                "cron": "2 14 * * *"
             }
         ]
     },
@@ -27836,27 +27791,7 @@
         ]
     },
     "AndrewHola/actions": {
-        ".github/workflows/4.yaml": [
-            {
-                "cron": "0 */24 * * *"
-            }
-        ],
-        ".github/workflows/subfinder.yml": [
-            {
-                "cron": "0 */24 * * *"
-            }
-        ],
-        ".github/workflows/hosts.yaml": [
-            {
-                "cron": "0 */24 * * *"
-            }
-        ],
-        ".github/workflows/3.yaml": [
-            {
-                "cron": "0 */24 * * *"
-            }
-        ],
-        ".github/workflows/2.yaml": [
+        ".github/workflows/info.yaml": [
             {
                 "cron": "0 */24 * * *"
             }
@@ -27891,14 +27826,14 @@
         ]
     },
     "DeFiCh/playground": {
-        ".github/workflows/defichain-dependencies.yml": [
-            {
-                "cron": "0 * * * *"
-            }
-        ],
         ".github/workflows/nestjs-dependencies.yml": [
             {
                 "cron": "0 1 * * *"
+            }
+        ],
+        ".github/workflows/defichain-dependencies.yml": [
+            {
+                "cron": "0 * * * *"
             }
         ]
     },
@@ -28661,9 +28596,9 @@
         ]
     },
     "Azure/azureml-examples": {
-        ".github/workflows/notebooks-cloud-data.yml": [
+        ".github/workflows/copy-schemas.yml": [
             {
-                "cron": "0 0/2 * * *"
+                "cron": "0 8 * * *"
             }
         ]
     },
@@ -29751,14 +29686,9 @@
         ]
     },
     "Mojave-Sun/mojave-sun-13": {
-        ".github/workflows/compile_changelogs.yml": [
+        ".github/workflows/stale.yml": [
             {
                 "cron": "0 0 * * *"
-            }
-        ],
-        ".github/workflows/gbp_collect.yml": [
-            {
-                "cron": "20 * * * *"
             }
         ]
     },
@@ -29920,7 +29850,7 @@
     "bensuperpc/repo-sync": {
         ".github/workflows/repo-sync.yml": [
             {
-                "cron": "* */1 * * *"
+                "cron": "* */6 * * *"
             }
         ]
     },
@@ -30706,7 +30636,17 @@
         ]
     },
     "GeoFS-Autoland/autoland": {
-        ".github/workflows/ci.yml": [
+        ".github/workflows/scripts.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ],
+        ".github/workflows/docs.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ],
+        ".github/workflows/tests.yml": [
             {
                 "cron": "0 0 * * *"
             }
@@ -31805,7 +31745,7 @@
     "Ultimate-Hosts-Blacklist/Add_Spam": {
         ".github/workflows/scheduler.yml": [
             {
-                "cron": "12 1 * * *"
+                "cron": "16 1 * * *"
             }
         ]
     },
@@ -32740,7 +32680,13 @@
             }
         ]
     },
-    "Mattaclp/NewLEDE": {},
+    "Mattaclp/NewLEDE": {
+        ".github/workflows/x86N3160.yml": [
+            {
+                "cron": "01 19 * * *"
+            }
+        ]
+    },
     "alexitodetuamor/network": {
         ".github/workflows/docker-publish.yml": [
             {
@@ -32860,7 +32806,7 @@
         ]
     },
     "da-moon/virtualized-environments": {
-        ".github/workflows/golang-alpine.yml": [
+        ".github/workflows/docker.yml": [
             {
                 "cron": "0 0 * * *"
             }
@@ -33427,7 +33373,7 @@
     "syx269511894/syx-dog": {
         ".github/workflows/\u300c\u4eac\u4e1c\u300da\u8bd5\u7528.yml": [
             {
-                "cron": "45 15 * * *"
+                "cron": "45 10 * * *"
             }
         ]
     },
@@ -33477,7 +33423,7 @@
     "Tectors/Archive": {
         ".github/workflows/python-app.yml": [
             {
-                "cron": "*/60 * * * *"
+                "cron": "*/45 * * * *"
             }
         ]
     },
@@ -36719,7 +36665,7 @@
     "chrisgebert/CORD-19-publications": {
         ".github/workflows/get-latest-cord-19-publication-data.yml": [
             {
-                "cron": "10 1 2 * *"
+                "cron": "10 1 * * *"
             }
         ]
     },
@@ -38644,19 +38590,14 @@
         ]
     },
     "TenkaiD16/a_main": {
-        ".github/workflows/dou_wx_fan.yml": [
-            {
-                "cron": "40 22,10 * * *"
-            }
-        ],
-        ".github/workflows/dou_main.yml": [
-            {
-                "cron": "10 16,11 * * *"
-            }
-        ],
         ".github/workflows/dou_gua.yml": [
             {
                 "cron": "10 17,12 * * *"
+            }
+        ],
+        ".github/workflows/jd_main.yml": [
+            {
+                "cron": "2 16,6 * * *"
             }
         ]
     },
@@ -38737,7 +38678,7 @@
     "xunichanghuan/mimotion": {
         ".github/workflows/run.yml": [
             {
-                "cron": "4 7 * * *"
+                "cron": "5 0,2,5,7,9,11,13 * * *"
             }
         ]
     },
@@ -38859,14 +38800,9 @@
         ]
     },
     "lendradev/lendradev": {
-        ".github/workflows/metrics.yml": [
-            {
-                "cron": "0 */6 * * *"
-            }
-        ],
         ".github/workflows/wakatime.yml": [
             {
-                "cron": "0 */6 * * *"
+                "cron": "* */6 * * *"
             }
         ]
     },
@@ -39292,9 +39228,19 @@
         ]
     },
     "JaimeZeng/MyActions": {
-        ".github/workflows/JD_Jxmc.yaml": [
+        ".github/workflows/JD_CCSign.yaml": [
             {
-                "cron": "59 15 * * *"
+                "cron": "0 16 * * *"
+            }
+        ],
+        ".github/workflows/Update_File.yaml": [
+            {
+                "cron": "0 4,10,16 * * *"
+            }
+        ],
+        ".github/workflows/JD_BeanChange.yaml": [
+            {
+                "cron": "0 1,9 * * *"
             }
         ]
     },
@@ -43079,9 +43025,9 @@
         ]
     },
     "laravel-interaction/interactions": {
-        ".github/workflows/update-copyright-years-in-license-file.yml": [
+        ".github/workflows/tests.yml": [
             {
-                "cron": "0 3 1 1 *"
+                "cron": "0 0 * * *"
             }
         ]
     },
@@ -43104,6 +43050,11 @@
             {
                 "cron": "0 1 * * *"
             }
+        ],
+        ".github/workflows/defichain-dependencies.yml": [
+            {
+                "cron": "0 * * * *"
+            }
         ]
     },
     "richardcsuwandi/academic-website": {
@@ -43121,9 +43072,9 @@
         ]
     },
     "zingimmick/laravel-eloquent-extensions": {
-        ".github/workflows/update-copyright-years-in-license-file.yml": [
+        ".github/workflows/tests.yml": [
             {
-                "cron": "0 3 1 1 *"
+                "cron": "0 0 * * *"
             }
         ]
     },
@@ -43163,9 +43114,9 @@
         ]
     },
     "zingimmick/package-skeleton-laravel": {
-        ".github/workflows/update-copyright-years-in-license-file.yml": [
+        ".github/workflows/tests.yml": [
             {
-                "cron": "0 3 1 1 *"
+                "cron": "0 0 * * *"
             }
         ]
     },
@@ -43375,12 +43326,12 @@
         ]
     },
     "api7/apisix-build-tools": {
-        ".github/workflows/package-apisix-rpm-el7.yml": [
+        ".github/workflows/package-apisix-openresty-el7.yml": [
             {
                 "cron": "0 0 * * *"
             }
         ],
-        ".github/workflows/package-apisix-dashboard-el7.yml": [
+        ".github/workflows/package-apisix-dashboard-el8.yml": [
             {
                 "cron": "0 0 * * *"
             }
@@ -43390,17 +43341,17 @@
                 "cron": "0 0 * * *"
             }
         ],
-        ".github/workflows/package-apisix-openresty-el7.yml": [
-            {
-                "cron": "0 0 * * *"
-            }
-        ],
         ".github/workflows/package-apisix-deb-ubuntu20.04.yml": [
             {
                 "cron": "0 0 * * *"
             }
         ],
-        ".github/workflows/package-apisix-dashboard-el8.yml": [
+        ".github/workflows/package-apisix-rpm-el7.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ],
+        ".github/workflows/package-apisix-dashboard-el7.yml": [
             {
                 "cron": "0 0 * * *"
             }
@@ -44985,7 +44936,13 @@
             }
         ]
     },
-    "10errordim/10errordim": {},
+    "10errordim/10errordim": {
+        ".github/workflows/Update Portfolio.yml": [
+            {
+                "cron": "30,55 * * * *"
+            }
+        ]
+    },
     "jqjiang819/builder": {
         ".github/workflows/docker.yml": [
             {
@@ -45826,12 +45783,12 @@
         ]
     },
     "JavierSegoviaCordoba/gradle-plugins": {
-        ".github/workflows/update-massive-catalogs.yml": [
+        ".github/workflows/update-gradle-wrapper.yml": [
             {
                 "cron": "0 0 * * *"
             }
         ],
-        ".github/workflows/update-gradle-wrapper.yml": [
+        ".github/workflows/update-build-version-catalogs.yml": [
             {
                 "cron": "0 0 * * *"
             }
@@ -46375,6 +46332,11 @@
         ]
     },
     "WorldFishCenter/peskas.timor.portal": {
+        ".github/workflows/deploy-cloudrun.yaml": [
+            {
+                "cron": "0 1 * * *"
+            }
+        ],
         ".github/workflows/deploy-shinyapps.io.yaml": [
             {
                 "cron": "0 1 * * *"
@@ -48899,7 +48861,13 @@
             }
         ]
     },
-    "armbian/mirror": {},
+    "armbian/mirror": {
+        ".github/workflows/mirror-sync.yml": [
+            {
+                "cron": "0 3 * * *"
+            }
+        ]
+    },
     "WillAbides/rjson": {
         ".github/workflows/fuzz.yml": [
             {
@@ -49264,6 +49232,3954 @@
         ".github/workflows/archive.yml": [
             {
                 "cron": "0 0 * * 0,2,4"
+            }
+        ]
+    },
+    "nkantar/Starminder": {
+        ".github/workflows/run_starminder.yml": [
+            {
+                "cron": "13 10 * * *"
+            }
+        ]
+    },
+    "nicesiu/TestBlog": {},
+    "Sricor/Sricor.work": {
+        ".github/workflows/Deploy.yml": [
+            {
+                "cron": "0 18 * * *"
+            }
+        ]
+    },
+    "conda-forge/repodata-shards": {
+        ".github/workflows/update-shards-2.yml": [
+            {
+                "cron": "30 * * * *"
+            }
+        ],
+        ".github/workflows/update-shards-0.yml": [
+            {
+                "cron": "0 * * * *"
+            }
+        ],
+        ".github/workflows/update-shards-1.yml": [
+            {
+                "cron": "15 * * * *"
+            }
+        ],
+        ".github/workflows/update-shards-3.yml": [
+            {
+                "cron": "45 * * * *"
+            }
+        ],
+        ".github/workflows/remove_undistributable.yml": [
+            {
+                "cron": "0 * * * *"
+            }
+        ]
+    },
+    "PHL-LC101-June-21/assignment-5-launch-checklist-StephPeets": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "34 3 * * 2"
+            }
+        ]
+    },
+    "ModularHistory/modularhistory": {
+        ".github/workflows/integration.yml": [
+            {
+                "cron": "0 9 * * *"
+            }
+        ]
+    },
+    "trejjam/mailchimp": {
+        ".github/workflows/main.yaml": [
+            {
+                "cron": "0 8 * * 1"
+            }
+        ]
+    },
+    "Chrisalid/chrisalid": {
+        ".github/workflows/snake.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "TheRealKizu/Alaia": {
+        ".github/workflows/codeql.yml": [
+            {
+                "cron": "0 18 * * *"
+            }
+        ]
+    },
+    "rs-bot-001/rs": {
+        ".github/workflows/rust.yml": [
+            {
+                "cron": "0 * * * *"
+            }
+        ]
+    },
+    "arachan/JasperReportsBoot": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "37 6 * * 5"
+            }
+        ]
+    },
+    "arachan/JasperReportBoot": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "36 15 * * 6"
+            }
+        ]
+    },
+    "tuxpeople/docker-debugcontainer": {
+        ".github/workflows/release.yml": [
+            {
+                "cron": "0 13 * * 1"
+            }
+        ]
+    },
+    "arachan/domaboot": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "23 11 * * 3"
+            }
+        ]
+    },
+    "lzq70112/lzq70112.github.io": {
+        ".github/workflows/baiduPush.yml": [
+            {
+                "cron": "0 23 * * *"
+            }
+        ]
+    },
+    "JUN8100/JD2": {
+        ".github/workflows/20210423jd_health_collect.yml": [
+            {
+                "cron": "10 0-23/4 * * *"
+            }
+        ],
+        ".github/workflows/jd_fruit.yml": [
+            {
+                "cron": "5 16,22,4,10 * * *"
+            }
+        ],
+        ".github/workflows/20210427jd_jintie.yml": [
+            {
+                "cron": "10 0 * * *"
+            }
+        ],
+        ".github/workflows/jd_superDay.yml": [
+            {
+                "cron": "0 8,21 1-15/1 3 *"
+            }
+        ],
+        ".github/workflows/20210515jd_updateBeanHome.yml": [
+            {
+                "cron": "15 4,6,16,17,22 * * *"
+            }
+        ],
+        ".github/workflows/20210524diy_adolf_urge.yml": [
+            {
+                "cron": "28 9 18-26 5 *"
+            }
+        ],
+        ".github/workflows/jd_joy_run.yml": [
+            {
+                "cron": "59 16,3,11 * * *"
+            }
+        ],
+        ".github/workflows/0401-0730jd_mengniu.yml": [
+            {
+                "cron": "0 0,1-22/2 1-31 4-7 *"
+            }
+        ],
+        ".github/workflows/jd_cash_exchange.yml": [
+            {
+                "cron": "35 15 * * *"
+            }
+        ],
+        ".github/workflows/jd_jdzz.yml": [
+            {
+                "cron": "02 13,14,15 * * *"
+            }
+        ],
+        ".github/workflows/jd_beauty.yml": [
+            {
+                "cron": "49 15,23,4,11 * * *"
+            }
+        ],
+        ".github/workflows/jd_jump_jump.yml": [
+            {
+                "cron": "5 0,6,14 19-25 5 *"
+            }
+        ],
+        ".github/workflows/0522jd_Redmi.yml": [
+            {
+                "cron": "20 1,7 21-27 5 *"
+            }
+        ],
+        ".github/workflows/0404jd_live_lottery_social.yml": [
+            {
+                "cron": "56 6,12 * * *"
+            }
+        ],
+        ".github/workflows/jd_joy_run_total.yml": [
+            {
+                "cron": "22 12 * * *"
+            }
+        ],
+        ".github/workflows/jd_superMarket.yml": [
+            {
+                "cron": "30 * * * *"
+            }
+        ],
+        ".github/workflows/jd_totalList.yml": [
+            {
+                "cron": "30 15 * * *"
+            }
+        ],
+        ".github/workflows/jd_crazy_joy.yml": [
+            {
+                "cron": "10 16,6 * * *"
+            }
+        ],
+        ".github/workflows/jd_fanslove.yml": [
+            {
+                "cron": "21 18 * * *"
+            }
+        ],
+        ".github/workflows/jd_crazy_joy_coin.yml": [
+            {
+                "cron": "20 16,22,4,10  * * *"
+            }
+        ],
+        ".github/workflows/jd_moneyTree.yml": [
+            {
+                "cron": "40 */3 * * *"
+            }
+        ],
+        ".github/workflows/jd_factory.yml": [
+            {
+                "cron": "21 0-23/1 * * *"
+            }
+        ],
+        ".github/workflows/032330jd_dpqdtotal.yml": [
+            {
+                "cron": "57 18,12 * * *"
+            }
+        ],
+        ".github/workflows/jd_car_exchange.yml": [
+            {
+                "cron": "35 15 * * *"
+            }
+        ],
+        ".github/workflows/0519jd_nzmh.yml": [
+            {
+                "cron": "0 10,2 * * *"
+            }
+        ],
+        ".github/workflows/20210525jd_city.yml": [
+            {
+                "cron": "10 1,4,10 * * *"
+            }
+        ],
+        ".github/workflows/jd_kd.yml": [
+            {
+                "cron": "03 16 * * *"
+            }
+        ],
+        ".github/workflows/jd_pet.yml": [
+            {
+                "cron": "30 23,4,10 * * *"
+            }
+        ],
+        ".github/workflows/jd_bean_change.yml": [
+            {
+                "cron": "0 1 * * *"
+            }
+        ],
+        ".github/workflows/20210425jd_tcl.yml": [
+            {
+                "cron": "10 0 * * *"
+            }
+        ],
+        ".github/workflows/20210525jd_super_box.yml": [
+            {
+                "cron": "0 0,4,10 * * *"
+            }
+        ],
+        ".github/workflows/jd_club_lottery.yml": [
+            {
+                "cron": "15 16 * * *"
+            }
+        ],
+        ".github/workflows/20210525jd_carnivalcity.yml": [
+            {
+                "cron": "0 16,23,5,11 * * *"
+            }
+        ],
+        ".github/workflows/20210506jd_daily_egg.yml": [
+            {
+                "cron": "10 22 * * *"
+            }
+        ],
+        ".github/workflows/jd_joy.yml": [
+            {
+                "cron": "04 16,22,4,10 * * *"
+            }
+        ]
+    },
+    "bouod/openwrt": {},
+    "huangjingpku/starter-hugo-academic": {
+        ".github/workflows/updater-wip.yml": [
+            {
+                "cron": "0 0 * * 0"
+            }
+        ]
+    },
+    "DogFather/0824": {},
+    "Dreams-Wj/testTmp": {
+        ".github/workflows/issue-close-require.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ],
+        ".github/workflows/ftp-schedule.yml": [
+            {
+                "cron": "0 20 * * *"
+            }
+        ]
+    },
+    "saforem2/saforem2": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "WasiqB/coteafs-selenium": {
+        ".github/workflows/stale.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "fabricepipart/teknichrono": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "30 10 * * 2"
+            }
+        ]
+    },
+    "X-McKay/ibyrd": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "22 13 * * 0"
+            }
+        ]
+    },
+    "SmokinSpectre/SmokinSpectre": {
+        ".github/workflows/Activity.yaml": [
+            {
+                "cron": "*/30 * * * *"
+            }
+        ],
+        ".github/workflows/Snake.yml": [
+            {
+                "cron": "0 */1 * * *"
+            }
+        ]
+    },
+    "crossphoton/extended-2fa": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "18 9 * * 2"
+            }
+        ]
+    },
+    "mr-sherman/OpenPilot": {
+        ".github/workflows/prebuilt.yaml": [
+            {
+                "cron": "0 * * * *"
+            }
+        ]
+    },
+    "1rz/OpenWrtActionsBuild": {},
+    "jackadam1981/Actions-Openwrt": {},
+    "JakenHerman/little-stitious-bot": {
+        ".github/workflows/run.yml": [
+            {
+                "cron": "0 */2 * * *"
+            }
+        ]
+    },
+    "xuxiaowei-com-cn/spring-boot-docker": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "27 5 * * 2"
+            }
+        ]
+    },
+    "sachusamu-c/CYBER-KING": {
+        ".github/workflows/stale.yml": [
+            {
+                "cron": "30 1 * * *"
+            }
+        ]
+    },
+    "Uvacoder/port-fraserxu": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "15 8 * * *"
+            }
+        ]
+    },
+    "hefeliscatus/CustomManjaroBuild": {},
+    "devlooped/GitInfo": {
+        ".github/workflows/dotnet-file.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "cultureamp/kaizen-design-system": {
+        ".github/workflows/stale.yml": [
+            {
+                "cron": "30 7 * * 1-5"
+            }
+        ]
+    },
+    "nvaccess/transformAddonDataToViews": {
+        ".github/workflows/transformAndPush.yml": [
+            {
+                "cron": "3 * * * *"
+            }
+        ]
+    },
+    "shinomineko/dockerfiles": {
+        ".github/workflows/build-all.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ],
+        ".github/workflows/build-adhoc.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "mooluxy/DailyCP": {
+        ".github/workflows/AutoDailyCP.yml": [
+            {
+                "cron": "0 6 * * *"
+            }
+        ]
+    },
+    "GridFin/GridFin.github.io": {
+        ".github/workflows/stale.yml": [
+            {
+                "cron": "30 1 * * *"
+            }
+        ]
+    },
+    "conda-forge/conda-forge-webservices": {
+        ".github/workflows/clean-and-update.yml": [
+            {
+                "cron": "0 * * * *"
+            }
+        ]
+    },
+    "sammy310/Danawa-Crawler": {
+        ".github/workflows/auto-crawler.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "bakhtiyarsierad/Setup-L2TP-VPN": {
+        ".github/workflows/cron.yml": [
+            {
+                "cron": "25 2 * * 0,4"
+            }
+        ]
+    },
+    "jincio/personal_site2": {
+        ".github/workflows/updater-wip.yml": [
+            {
+                "cron": "0 0 * * 0"
+            }
+        ]
+    },
+    "krishdevdb/Alphasians-AINA": {
+        ".github/workflows/stale.yml": [
+            {
+                "cron": "30 1 * * *"
+            }
+        ]
+    },
+    "marisahoenig/marisahoenig.github.io": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "23 6 * * 6"
+            }
+        ]
+    },
+    "shivammathur/test-setup-php": {
+        ".github/workflows/coverage.yml": [
+            {
+                "cron": "30 2/5 * * *"
+            }
+        ]
+    },
+    "codebyaryan/canopus": {
+        ".github/workflows/stale.yml": [
+            {
+                "cron": "38 19 * * *"
+            }
+        ]
+    },
+    "alonz09/xiao": {},
+    "jubarajpandit/eCommerceAPI": {
+        ".github/workflows/veracode-analysis.yml": [
+            {
+                "cron": "20 20 * * 2"
+            }
+        ]
+    },
+    "meowmeowmeowcat/meowmeowmeowcat": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "0 */2 * * *"
+            }
+        ]
+    },
+    "7k5x-workshop/actions": {},
+    "kikd/matlabactions-test": {
+        ".github/workflows/job.yml": [
+            {
+                "cron": "0 * * * *"
+            }
+        ]
+    },
+    "atomlong/mingw-w64-gcc10": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "00 15 * * *"
+            }
+        ],
+        ".github/workflows/autoact.yml": [
+            {
+                "cron": "0 0 1 * *"
+            }
+        ]
+    },
+    "trejjam/ares": {
+        ".github/workflows/main.yaml": [
+            {
+                "cron": "0 8 * * 1"
+            }
+        ]
+    },
+    "Bortolato/Bortolato": {
+        ".github/workflows/cobrinha.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "addy/tacos": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "27 19 * * 2"
+            }
+        ]
+    },
+    "gansel-rechtsanwaelte/php-cs-fixer-config": {
+        ".github/workflows/renew.yaml": [
+            {
+                "cron": "1 0 1 1 *"
+            }
+        ]
+    },
+    "kornicameister/dotfiles": {
+        ".github/workflows/misspell.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "wabain/wabain.github.io": {},
+    "pastelmind/candle": {
+        ".github/workflows/build.yml": [
+            {
+                "cron": "13 4 21 * *"
+            }
+        ]
+    },
+    "tang1025yun/openwrt": {},
+    "connectbot/connectbot": {
+        ".github/workflows/translations-import.yml": [
+            {
+                "cron": "0 6 * * *"
+            }
+        ],
+        ".github/workflows/ci.yml": [
+            {
+                "cron": "0 7 */3 * *"
+            }
+        ]
+    },
+    "FernandoGiuseppeSalvetti/FernandoGiuseppeSalvetti": {
+        ".github/workflows/blank.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "ankit858/Ankit": {
+        ".github/workflows/lock.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "o0liuky0o/newopenwrt": {},
+    "feng3643/JD_DouDou": {
+        ".github/workflows/20210518adolf_pk.yml": [
+            {
+                "cron": "10 16,10 * * *"
+            }
+        ],
+        ".github/workflows/jd_speed.yml": [
+            {
+                "cron": "33 */3 * * *"
+            }
+        ],
+        ".github/workflows/jd_blue_coin.yml": [
+            {
+                "cron": "35 15 * * *"
+            }
+        ],
+        ".github/workflows/0519jd_jump.yml": [
+            {
+                "cron": "1 0-23/2 * * *"
+            }
+        ],
+        ".github/workflows/jd_cash.yml": [
+            {
+                "cron": "21 1,15 * * *"
+            }
+        ],
+        ".github/workflows/jd_ms.yml": [
+            {
+                "cron": "0 23 * * *"
+            }
+        ],
+        ".github/workflows/20210425jd_market_lottery.yml": [
+            {
+                "cron": "10 0 * * *"
+            }
+        ],
+        ".github/workflows/20210518jd_jintiewx.yml": [
+            {
+                "cron": "10 16,10 * * *"
+            }
+        ],
+        ".github/workflows/gua_xiaolong.yaml": [
+            {
+                "cron": "18 1,11 13-25 8 *"
+            }
+        ],
+        ".github/workflows/jd_unsubscribe.yml": [
+            {
+                "cron": "45 15,18 * * *"
+            }
+        ],
+        ".github/workflows/20210428jd_syj.yml": [
+            {
+                "cron": "10 22,11 * * *"
+            }
+        ],
+        ".github/workflows/20210514jd_halfliveredrain.yml": [
+            {
+                "cron": "1 11-14/1  * * *"
+            }
+        ],
+        ".github/workflows/jd_jxfactory.yml": [
+            {
+                "cron": "0 0-23/1 * * *"
+            }
+        ],
+        ".github/workflows/0409jx_cfdtx.yml": [
+            {
+                "cron": "57 17,4 * * *"
+            }
+        ],
+        ".github/workflows/jd_jxsign.yml": [
+            {
+                "cron": "20 1,7 * * *"
+            }
+        ],
+        ".github/workflows/jd_pigPet.yml": [
+            {
+                "cron": "10 7 * * *"
+            }
+        ],
+        ".github/workflows/jd_live.yaml": [
+            {
+                "cron": "10 11-14 * * *"
+            }
+        ],
+        ".github/workflows/jd_chinajoy.yaml": [
+            {
+                "cron": "0 16,4 1-31 7 *"
+            },
+            {
+                "cron": "0 16,4 1-2 8 *"
+            }
+        ],
+        ".github/workflows/jd_sendBeans.yml": [
+            {
+                "cron": "2 0,3 * * *"
+            }
+        ],
+        ".github/workflows/20210427jd_super_redrain.yml": [
+            {
+                "cron": "45 0-23/1 * * *"
+            }
+        ],
+        ".github/workflows/jd_carnivalcity.yaml": [
+            {
+                "cron": "0 17,22,4,12 * * *"
+            }
+        ],
+        ".github/workflows/20210518jd_speed_sign.yml": [
+            {
+                "cron": "10 16,10 * * *"
+            }
+        ],
+        ".github/workflows/20210323jd_dpqd.yml": [
+            {
+                "cron": "10 18,10 * * *"
+            }
+        ],
+        ".github/workflows/jd_qmqjd.yaml": [
+            {
+                "cron": "30 19,2,14 1-16 8 *"
+            }
+        ],
+        ".github/workflows/jd_ddnc_farmpark.yml": [
+            {
+                "cron": "20 1,10 * * * *"
+            }
+        ],
+        ".github/workflows/Captain01.yml": [
+            {
+                "cron": "11 0-23/8 * * *"
+            }
+        ],
+        ".github/workflows/jd_qcshj.yaml": [
+            {
+                "cron": "30 9,21 12-20 8 *"
+            }
+        ],
+        ".github/workflows/jd_gold_creator.yaml": [
+            {
+                "cron": "13 17,14 * * *"
+            }
+        ],
+        ".github/workflows/jd_qmqjd.yml": [
+            {
+                "cron": "1 0,1 * * *"
+            }
+        ],
+        ".github/workflows/jd_daily_lottery.yml": [
+            {
+                "cron": "10 17,11,5 * * *"
+            }
+        ],
+        ".github/workflows/0519jd_daydlt.yml": [
+            {
+                "cron": "0 10,2 * * *"
+            }
+        ],
+        ".github/workflows/jd_fruit.yml": [
+            {
+                "cron": "5 16,22,4,10 * * *"
+            }
+        ],
+        ".github/workflows/jd_superBrand.yml": [
+            {
+                "cron": "10 16,10 * * *"
+            }
+        ],
+        ".github/workflows/20210423jd_health_collect.yml": [
+            {
+                "cron": "10 0-23/4 * * *"
+            }
+        ],
+        ".github/workflows/jd_twz-star.yaml": [
+            {
+                "cron": "05 16 * * *"
+            }
+        ],
+        ".github/workflows/20210427jd_jintie.yml": [
+            {
+                "cron": "10 0 * * *"
+            }
+        ],
+        ".github/workflows/jd_qqxing.yml": [
+            {
+                "cron": "5 6-18/6 * * *"
+            }
+        ],
+        ".github/workflows/20210603jd_mohe.yml": [
+            {
+                "cron": "0,29 0-23/4 * * *"
+            }
+        ],
+        ".github/workflows/20210515jd_updateBeanHome.yml": [
+            {
+                "cron": "15 4,6,16,17,22 * * *"
+            }
+        ],
+        ".github/workflows/jd_superDay.yml": [
+            {
+                "cron": "0 8,21 1-15/1 3 *"
+            }
+        ],
+        ".github/workflows/jd_cash_exchange.yml": [
+            {
+                "cron": "35 15 * * *"
+            }
+        ],
+        ".github/workflows/jd_joy_run.yml": [
+            {
+                "cron": "59 16,3,11 * * *"
+            }
+        ],
+        ".github/workflows/jd_jdzz.yml": [
+            {
+                "cron": "02 13,14,15 * * *"
+            }
+        ],
+        ".github/workflows/jd_joy_run_total.yml": [
+            {
+                "cron": "22 12 * * *"
+            }
+        ],
+        ".github/workflows/0406monk_shop_add_to_car.yml": [
+            {
+                "cron": "0 0,1-22/6 * * *"
+            }
+        ],
+        ".github/workflows/jd_beauty.yml": [
+            {
+                "cron": "49 15,23,4,11 * * *"
+            }
+        ],
+        ".github/workflows/jd_jump_jump.yml": [
+            {
+                "cron": "5 0,6,14 19-25 5 *"
+            }
+        ],
+        ".github/workflows/0404jd_live_lottery_social.yml": [
+            {
+                "cron": "56 6,12 * * *"
+            }
+        ],
+        ".github/workflows/jd_superMarket.yml": [
+            {
+                "cron": "30 * * * *"
+            }
+        ],
+        ".github/workflows/jd_crazy_joy.yml": [
+            {
+                "cron": "10 16,6 * * *"
+            }
+        ],
+        ".github/workflows/jd_fanslove.yml": [
+            {
+                "cron": "21 18 * * *"
+            }
+        ],
+        ".github/workflows/jd_crazy_joy_coin.yml": [
+            {
+                "cron": "20 16,22,4,10  * * *"
+            }
+        ],
+        ".github/workflows/jd_totalList.yml": [
+            {
+                "cron": "30 15 * * *"
+            }
+        ],
+        ".github/workflows/jd_moneyTree.yml": [
+            {
+                "cron": "40 */3 * * *"
+            }
+        ],
+        ".github/workflows/jd_factory.yml": [
+            {
+                "cron": "21 0-23/1 * * *"
+            }
+        ],
+        ".github/workflows/jd_industryLottery.yaml": [
+            {
+                "cron": "10 16 * * *"
+            }
+        ],
+        ".github/workflows/jd_car_exchange.yml": [
+            {
+                "cron": "35 15 * * *"
+            }
+        ],
+        ".github/workflows/0519jd_nzmh.yml": [
+            {
+                "cron": "0 10,2 * * *"
+            }
+        ],
+        ".github/workflows/jd_bean_change.yml": [
+            {
+                "cron": "0 1 * * *"
+            }
+        ],
+        ".github/workflows/jd_joy_feedPets.yml": [
+            {
+                "cron": "*/30 */1 * * *"
+            }
+        ],
+        ".github/workflows/jd_kd.yml": [
+            {
+                "cron": "03 16 * * *"
+            }
+        ],
+        ".github/workflows/jd_pet.yml": [
+            {
+                "cron": "30 23,4,10 * * *"
+            }
+        ],
+        ".github/workflows/jx_cfd.yml": [
+            {
+                "cron": "12 16,22,4,10,12 * * *"
+            }
+        ],
+        ".github/workflows/20210525jd_jbczy.yml": [
+            {
+                "cron": "0 16,0,4,10 * * *"
+            }
+        ],
+        ".github/workflows/jd_jxnc.yml": [
+            {
+                "cron": "57 17,1,6,11 * * *"
+            }
+        ],
+        ".github/workflows/jd_joy500.yml": [
+            {
+                "cron": "30 15,3 * * *"
+            }
+        ],
+        ".github/workflows/jd_joy_reward.yml": [
+            {
+                "cron": "55 23,3,7 * * *"
+            }
+        ],
+        ".github/workflows/jd_lsj.yml": [
+            {
+                "cron": "20 1,7 * *  *"
+            }
+        ],
+        ".github/workflows/jd_lotteryMachine.yml": [
+            {
+                "cron": "28 18,4 * * *"
+            }
+        ],
+        ".github/workflows/jd_joy_steal.yml": [
+            {
+                "cron": "32 22 * * *"
+            }
+        ],
+        ".github/workflows/0408jd_bookshopCar.yml": [
+            {
+                "cron": "20 2,6 * * *"
+            }
+        ],
+        ".github/workflows/jd_jxd.yml": [
+            {
+                "cron": "00 0,8,12 * * *"
+            }
+        ],
+        ".github/workflows/jd_necklace.yml": [
+            {
+                "cron": "10 0,20 * * *"
+            }
+        ],
+        ".github/workflows/jd_plantBean.yml": [
+            {
+                "cron": "0 23,0-13/1 * * *"
+            }
+        ],
+        ".github/workflows/jd_try.yml": [
+            {
+                "cron": "45 15 * * *"
+            }
+        ],
+        ".github/workflows/jd_productZ4Brand.yaml": [
+            {
+                "cron": "6 10,1 24-27 7 *"
+            }
+        ],
+        ".github/workflows/jd_liveredrain.yml": [
+            {
+                "cron": "5,35 0-23/1  * * *"
+            }
+        ],
+        ".github/workflows/jd_wish.yaml": [
+            {
+                "cron": "0 0,4 * * *"
+            }
+        ],
+        ".github/workflows/0418jd_club_lottery.yml": [
+            {
+                "cron": "10 1,17 * * *"
+            }
+        ],
+        ".github/workflows/jd_wxFans.yaml": [
+            {
+                "cron": "1 0 * * *"
+            }
+        ],
+        ".github/workflows/jd_cfd_loop.yaml": [
+            {
+                "cron": "30 */6 * * *"
+            }
+        ],
+        ".github/workflows/20210422jd_health.yml": [
+            {
+                "cron": "10 0-23/4 * * *"
+            }
+        ],
+        ".github/workflows/jd_speed_sign.yml": [
+            {
+                "cron": "0 16 * * *"
+            }
+        ],
+        ".github/workflows/jd_sgmh.yml": [
+            {
+                "cron": "57 15 * * *"
+            }
+        ],
+        ".github/workflows/jx_total2jxtqz.yml": [
+            {
+                "cron": "30 15,2 * * *"
+            }
+        ],
+        ".github/workflows/jd_family.yml": [
+            {
+                "cron": "20 16,6,0,12 * * *"
+            }
+        ],
+        ".github/workflows/jd_bean_sign.yml": [
+            {
+                "cron": "35 15,1 * * *"
+            }
+        ],
+        ".github/workflows/repo-sync.yml": [
+            {
+                "cron": "0 1 * * *"
+            }
+        ],
+        ".github/workflows/gua_xmGame.yaml": [
+            {
+                "cron": "13 0,14 13-31 8 *"
+            }
+        ],
+        ".github/workflows/jd_Deleterun.yml": [
+            {
+                "cron": "0 0,12 * * *"
+            }
+        ],
+        ".github/workflows/\u559c\u9a6c\u62c9\u96c5.yml": [
+            {
+                "cron": "*/31 * * * *"
+            }
+        ],
+        ".github/workflows/jd_redPacket.yml": [
+            {
+                "cron": "0 17,1,8 * * *"
+            }
+        ],
+        ".github/workflows/20210603jd_dphby.yml": [
+            {
+                "cron": "20 1,7 * 5,6 *"
+            }
+        ],
+        ".github/workflows/jd_decompression.yaml": [
+            {
+                "cron": "5 22,0 12-24 8 *"
+            }
+        ],
+        ".github/workflows/jd_unbind.yml": [
+            {
+                "cron": "10 * * 1 *"
+            }
+        ],
+        ".github/workflows/jd_carnivalcity_help.yaml": [
+            {
+                "cron": "30 16,0,14 * * *"
+            }
+        ],
+        ".github/workflows/20210525jd_super_box.yml": [
+            {
+                "cron": "0 0,4,10 * * *"
+            }
+        ],
+        ".github/workflows/jd_joy_park.yml": [
+            {
+                "cron": "20 1,10 * * * *"
+            }
+        ],
+        ".github/workflows/jd_club_lottery.yml": [
+            {
+                "cron": "15 16 * * *"
+            }
+        ],
+        ".github/workflows/jd_joy.yml": [
+            {
+                "cron": "04 16,22,4,10 * * *"
+            }
+        ],
+        ".github/workflows/20210525jd_carnivalcity.yml": [
+            {
+                "cron": "0 16,23,5,11 * * *"
+            }
+        ],
+        ".github/workflows/20210506jd_daily_egg.yml": [
+            {
+                "cron": "10 22 * * *"
+            }
+        ]
+    },
+    "Uvacoder/port-nirum": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "23 4 * * 2"
+            }
+        ]
+    },
+    "zcy85611/Auto-Openwrt": {},
+    "juicedata/juicefs-csi-driver": {
+        ".github/workflows/nightly.yaml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "kubesphere/ks-installer": {},
+    "ycheng/concourseci-entry-retry": {
+        ".github/workflows/docker-publish.yml": [
+            {
+                "cron": "20 4 * * *"
+            }
+        ]
+    },
+    "TomoeMami/S1PlainTextBackup": {
+        ".github/workflows/S1.yml": [
+            {
+                "cron": "13,33,53 */1 * * *"
+            }
+        ]
+    },
+    "evelynsantos/evelynsantos": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "alannix-lw/distroless-python-demo": {
+        ".github/workflows/docker-build-scan-push.yml": [
+            {
+                "cron": "0 7 * * 4"
+            }
+        ]
+    },
+    "yxnwh/misc": {
+        ".github/workflows/v2ex_checkin.yml": [
+            {
+                "cron": "5 0 * * *"
+            }
+        ],
+        ".github/workflows/hostloc_checkin.yml": [
+            {
+                "cron": "6 0 * * *"
+            }
+        ]
+    },
+    "Xiaozhi-z/LumineSight_Blog": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "5 */3 * * *"
+            }
+        ]
+    },
+    "dockrepo/docker-puppeteer-pm2": {
+        ".github/workflows/workflow.yml": [
+            {
+                "cron": "0 0 1 * *"
+            }
+        ]
+    },
+    "HXSecurity/DongTai-agent-java": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "28 6 * * 2"
+            }
+        ]
+    },
+    "Yikun/spark-arm-docker": {
+        ".github/workflows/spark-arm-job.yml": [
+            {
+                "cron": "0 */12 * * *"
+            }
+        ]
+    },
+    "stratis-storage/stratisd": {
+        ".github/workflows/weekly.yml": [
+            {
+                "cron": "15 3 * * 1"
+            }
+        ],
+        ".github/workflows/nightly.yml": [
+            {
+                "cron": "15 3 * * *"
+            }
+        ]
+    },
+    "viyeumaden/abc": {},
+    "aryazakaria01/CodeX": {
+        ".github/workflows/docker-publish.yml": [
+            {
+                "cron": "25 3 * * *"
+            }
+        ]
+    },
+    "jeffgrunewald/ziglings": {
+        ".github/workflows/eowyn.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "a01sa01to/covid19-ibaraki": {
+        ".github/workflows/check-statuses-of-forked-sites.yml": [
+            {
+                "cron": "0 0 1 * *"
+            }
+        ],
+        ".github/workflows/image-compress.yml": [
+            {
+                "cron": "0 3 * * 0"
+            }
+        ]
+    },
+    "Filipegsn/Filipegsn": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "moosterhof/jupyter-template": {
+        ".github/workflows/pur.yml": [
+            {
+                "cron": "14 3 * * 0"
+            }
+        ]
+    },
+    "dougkulak/libdefkit": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "21 10 * * 0"
+            }
+        ]
+    },
+    "Opix72/bantal": {},
+    "kmyk/jikka-judge-problems": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "PlaceOS/compiler": {
+        ".github/workflows/ci.yml": [
+            {
+                "cron": "0 6 * * 1"
+            }
+        ]
+    },
+    "devin-s-lin/jd_scripts_auto": {
+        ".github/workflows/deploy_tencent_scf.yml": [
+            {
+                "cron": "50 */4 * * *"
+            }
+        ],
+        ".github/workflows/syncGit.yml": [
+            {
+                "cron": "5 */3 * * *"
+            }
+        ]
+    },
+    "JanDW/wildpeaches": {
+        ".github/workflows/markdown-link-check.yml": [
+            {
+                "cron": "36 1 * * 2"
+            }
+        ]
+    },
+    "UltiRequiem/grepy": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "34 2 * * 4"
+            }
+        ]
+    },
+    "longlongago2/arch-editor": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "25 19 * * 0"
+            }
+        ]
+    },
+    "OctopusDeploy/GuestAuthenticationProvider": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "19 0 * * *"
+            }
+        ]
+    },
+    "Hkakashi/sast-integration": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "44 2 * * 3"
+            }
+        ]
+    },
+    "OctopusDeploy/Versioning": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "19 0 * * *"
+            }
+        ]
+    },
+    "OctopusDeploy/JiraIntegration": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "19 0 * * *"
+            }
+        ]
+    },
+    "OctopusDeploy/ServerExtensibility": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "19 0 * * *"
+            }
+        ]
+    },
+    "OctopusDeploy/Data": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "19 0 * * *"
+            }
+        ]
+    },
+    "OctopusDeploy/AzureDevOpsIssueTracker": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "19 0 * * *"
+            }
+        ]
+    },
+    "fearwc3/github_srcrs_BilibiliTask": {
+        ".github/workflows/Bilibili.yml": [
+            {
+                "cron": "30 2 * * *"
+            }
+        ],
+        ".github/workflows/avoid.yml": [
+            {
+                "cron": "0 0 1 * *"
+            }
+        ]
+    },
+    "Ark-inflearn/inflearn-clone-back": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "40 22 * * 5"
+            }
+        ]
+    },
+    "Munariy/Munariy": {},
+    "zztgf2003/openwrt-actions6": {},
+    "o7-Fire/Static-Mindustry-Package": {
+        ".github/workflows/tag.yml": [
+            {
+                "cron": "0 3 * * *"
+            }
+        ]
+    },
+    "ncsu-landscape-dynamics/r.pops.spread": {
+        ".github/workflows/ci-compiled.yml": [
+            {
+                "cron": "0 8 * * *"
+            }
+        ]
+    },
+    "talessantos49/talessantos49": {
+        ".github/workflows/snake.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "wgzhao/Addax": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "20 14 * * 5"
+            }
+        ]
+    },
+    "star2000/blog": {
+        ".github/workflows/static.yml": [
+            {
+                "cron": "0 0 * * 0"
+            }
+        ]
+    },
+    "cheeriojs/cheerio": {
+        ".github/workflows/sponsors.yml": [
+            {
+                "cron": "0 16 * * *"
+            }
+        ]
+    },
+    "rtzhao/rtzhao": {
+        ".github/workflows/wake-time.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "cho2ji/cho2ji": {},
+    "odroe/socfony": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "33 18 * * 3"
+            }
+        ]
+    },
+    "csucoderlee/library-management-system": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "22 3 * * 2"
+            }
+        ]
+    },
+    "GaviTate/Tman": {
+        ".github/workflows/sync_cm.yml": [
+            {
+                "cron": "16 */6 * * *"
+            }
+        ]
+    },
+    "ShimakazeProject/Shimakaze.Tools": {
+        ".github/workflows/cleanup.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "ShimakazeProject/Shimakaze.Models": {
+        ".github/workflows/cleanup.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "btopro/devjourney": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "0 10 * * 2"
+            }
+        ]
+    },
+    "kitsunecat/swagger-test-kitsuncat": {
+        ".github/workflows/update-swagger.yml": [
+            {
+                "cron": "0 10 * * *"
+            }
+        ]
+    },
+    "haru09/haru09.github.io": {
+        ".github/workflows/stale.yml": [
+            {
+                "cron": "30 1 * * *"
+            }
+        ]
+    },
+    "iceman201/blog": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "33 4 * * 4"
+            }
+        ]
+    },
+    "ailacs/R0n73r": {
+        ".github/workflows/awvs.yml": [
+            {
+                "cron": "0 */2 * * *"
+            }
+        ]
+    },
+    "JRoy/discord-experiments-android": {
+        ".github/workflows/check.yml": [
+            {
+                "cron": "0 * * * *"
+            }
+        ]
+    },
+    "yuanw/blog": {
+        ".github/workflows/update-flake.yml": [
+            {
+                "cron": "0 8 * * 0"
+            }
+        ]
+    },
+    "zingimmick/laravel-eloquent-view": {
+        ".github/workflows/tests.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "zingimmick/dingtalk-robot": {
+        ".github/workflows/tests.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "jurgenjacobsen/dsc.cmds": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "15 23 * * 3"
+            }
+        ]
+    },
+    "abelzyp/zava": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "35 15 * * 5"
+            }
+        ]
+    },
+    "yozba/OmocoroRadioRss": {
+        ".github/workflows/gha_mangainu.yml": [
+            {
+                "cron": "5 15 * * 6"
+            }
+        ],
+        ".github/workflows/gha_onsei.yml": [
+            {
+                "cron": "5 15 * * 1"
+            }
+        ],
+        ".github/workflows/gha_mongoru.yml": [
+            {
+                "cron": "5 15 * * 5"
+            }
+        ],
+        ".github/workflows/gha_tokumei.yml": [
+            {
+                "cron": "5 15 * * 3"
+            }
+        ],
+        ".github/workflows/gha_ariccha.yml": [
+            {
+                "cron": "5 15 * * 0"
+            }
+        ],
+        ".github/workflows/gha_soldier.yml": [
+            {
+                "cron": "5 15 * * 6"
+            }
+        ],
+        ".github/workflows/gha_kamamiku.yml": [
+            {
+                "cron": "5 15 * * 4"
+            }
+        ],
+        ".github/workflows/gha_iuteruma.yml": [
+            {
+                "cron": "5 15 * * 2"
+            }
+        ]
+    },
+    "mike132129/Automated-Clocking": {
+        ".github/workflows/clockout.yml": [
+            {
+                "cron": "57 9 * * 1-5"
+            }
+        ],
+        ".github/workflows/clockin.yml": [
+            {
+                "cron": "58 1 * * 1-5"
+            }
+        ]
+    },
+    "zingimmick/laravel-query-builder": {
+        ".github/workflows/tests.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "evertcode/evertcode": {
+        ".github/workflows/blank.yml": [
+            {
+                "cron": "0 */6 * * *"
+            }
+        ]
+    },
+    "mhanberg/ziglings": {
+        ".github/workflows/eowyn.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "bbigras/nix-config": {
+        ".github/workflows/update-flakes.yaml": [
+            {
+                "cron": "* */6 * * *"
+            }
+        ]
+    },
+    "vitorlbarroso/vitorlbarroso": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "bbigras/dendrite-demo-pinecone": {
+        ".github/workflows/update-flakes.yaml": [
+            {
+                "cron": "* */6 * * *"
+            }
+        ]
+    },
+    "arsfeld/yarr-build": {
+        ".github/workflows/check-yarr-release.yml": [
+            {
+                "cron": "0 10 * * *"
+            }
+        ]
+    },
+    "mmtk/mmtk-core": {
+        ".github/workflows/perf-jikesrvm-baseline.yml": [
+            {
+                "cron": "0 0 * * SUN"
+            }
+        ],
+        ".github/workflows/perf-openjdk-baseline.yml": [
+            {
+                "cron": "0 0 * * SUN"
+            }
+        ]
+    },
+    "jurgenjacobsen/dsc.levels": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "19 22 * * 6"
+            }
+        ]
+    },
+    "TheCatLady/dockermod-strip-tracks": {
+        ".github/workflows/stale-close.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "NINIOWO/Bahamut-Automation-Templat": {
+        ".github/workflows/automation.yml": [
+            {
+                "cron": "0 5,17 * * *"
+            }
+        ]
+    },
+    "mcc-devel/iucn": {
+        ".github/workflows/python-app.yml": [
+            {
+                "cron": "0 8 * * *"
+            }
+        ]
+    },
+    "TheCatLady/docker-croc": {
+        ".github/workflows/croc-update.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "TongLin138/Action": {
+        ".github/workflows/Repo_Sync.yml": [
+            {
+                "cron": "*/30 * * * *"
+            }
+        ],
+        ".github/workflows/Repo_Sync_with_Key.yml": [
+            {
+                "cron": "*/30 0-15 * * *"
+            }
+        ]
+    },
+    "index-py/index.py": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "25 15 * * 4"
+            }
+        ]
+    },
+    "antrea-io/antrea": {
+        ".github/workflows/clair.yml": [
+            {
+                "cron": "0 10 * * *"
+            }
+        ],
+        ".github/workflows/lifecycle_management.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "TheCatLady/docker-webhook": {
+        ".github/workflows/webhook-update.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "cxs921025/cxs921025": {
+        ".github/workflows/clock_in_test.yml": [
+            {
+                "cron": "03 12 * * 1-5"
+            }
+        ],
+        ".github/workflows/clock_in_afternoon.yml": [
+            {
+                "cron": "03 18 * * 1-5"
+            }
+        ],
+        ".github/workflows/clock_in_morning.yml": [
+            {
+                "cron": "40 08 * * 1-5"
+            }
+        ]
+    },
+    "TheCatLady/docker-qnap-pushover": {
+        ".github/workflows/stale-close.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "JoKeRxTD/joker.is-a.dev": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "36 21 * * 0"
+            }
+        ]
+    },
+    "CSUYHR/LZUpunch": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "30 2 * * *"
+            }
+        ]
+    },
+    "WISELYfeng/egg-demo-1": {
+        ".github/workflows/nodejs.yml": [
+            {
+                "cron": "0 2 * * *"
+            }
+        ]
+    },
+    "emersontfc/orbot": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "40 11 * * 6"
+            }
+        ]
+    },
+    "pdfo/pdfo.github.io": {
+        ".github/workflows/stats.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "sanderson4030/blog": {},
+    "viniciussti/viniciussti": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "entr0pia/SwitchyOmega-Whitelist": {
+        ".github/workflows/update.yml": [
+            {
+                "cron": "0 2 * * 1,4"
+            }
+        ]
+    },
+    "r-40021/bingo": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "15 22 * * 0"
+            }
+        ]
+    },
+    "Passion-Logan/auto-green": {
+        ".github/workflows/ci.yml": [
+            {
+                "cron": "0 1 * * *"
+            }
+        ]
+    },
+    "r-40021/stopwatch": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "22 12 * * 3"
+            }
+        ]
+    },
+    "Mxrcon/Mxrcon": {
+        ".github/workflows/update_readme.yml": [
+            {
+                "cron": "0 0,6,12,20, * * *"
+            }
+        ]
+    },
+    "input-output-hk/cardano-wallet": {
+        ".github/workflows/e2e-docker.yml": [
+            {
+                "cron": "0 23 * * *"
+            }
+        ]
+    },
+    "PonyCui/flutter_markdown": {
+        ".github/workflows/flutter_ci.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "zingimmick/laravel-flysystem-obs": {
+        ".github/workflows/tests.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "LinRaise/jd_scripts_gitee": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "30 4,16 * * *"
+            }
+        ]
+    },
+    "pedromfedricci/newsletter": {},
+    "dharmeshkakadia/github-bookmarks-stars": {
+        ".github/workflows/update-stars.yml": [
+            {
+                "cron": "0 13 * * *"
+            }
+        ]
+    },
+    "xf110/last-openwrt": {},
+    "apisuserbot/King-Userbot": {
+        ".github/workflows/docker-publish.yml": [
+            {
+                "cron": "25 3 * * *"
+            }
+        ]
+    },
+    "Uvacoder/port-dbooth": {
+        ".github/workflows/deploy.yml": [
+            {
+                "cron": "0 0,12 * * *"
+            }
+        ]
+    },
+    "daineseh/openwrt-x86_64-firmware": {},
+    "Chriskuei/Chriskuei": {
+        ".github/workflows/waka.yml": [
+            {
+                "cron": "0 16 * * *"
+            }
+        ]
+    },
+    "EVE-China/sde": {
+        ".github/workflows/node.js.yml": [
+            {
+                "cron": "0 0 * * 1"
+            }
+        ]
+    },
+    "mikenye/docker-piaware": {
+        ".github/workflows/deploy_multi_arch.yml": [
+            {
+                "cron": "0 5 * * *"
+            }
+        ],
+        ".github/workflows/deploy_single_arch.yml": [
+            {
+                "cron": "0 5 * * *"
+            }
+        ]
+    },
+    "zqyz-ai/123": {},
+    "ngshiheng/ngshiheng": {
+        ".github/workflows/blog-post-workflow.yml": [
+            {
+                "cron": "0 0,12 * * *"
+            }
+        ]
+    },
+    "icorbrey/assignments": {
+        ".github/workflows/check-reminders.yml": [
+            {
+                "cron": "0 * * * *"
+            }
+        ]
+    },
+    "Xwudao/vben-admin-demo": {
+        ".github/workflows/issue-close-require.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ],
+        ".github/workflows/ftp-schedule.yml": [
+            {
+                "cron": "0 20 * * *"
+            }
+        ]
+    },
+    "minaazz/minaazz.github.io": {
+        ".github/workflows/stale.yml": [
+            {
+                "cron": "30 1 * * *"
+            }
+        ]
+    },
+    "zhangkya/T110_X64": {},
+    "lunarmint/lunarmint": {
+        ".github/workflows/update-readme.yml": [
+            {
+                "cron": "0 */12 * * *"
+            }
+        ],
+        ".github/workflows/update-timestats.yml": [
+            {
+                "cron": "0 */12 * * *"
+            }
+        ]
+    },
+    "90016793/90016793": {
+        ".github/workflows/profile-summary-cards.yml": [
+            {
+                "cron": "* */24 * * *"
+            }
+        ]
+    },
+    "sandydoo/ember-google-maps": {
+        ".github/workflows/ci.yml": [
+            {
+                "cron": "0 3 * * 1"
+            }
+        ]
+    },
+    "kawarimidoll/deno-textdb": {
+        ".github/workflows/udd.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "demaford/dogghousehq": {
+        ".github/workflows/shiftleft-analysis.yml": [
+            {
+                "cron": "42 16 * * 2"
+            }
+        ]
+    },
+    "vgoes19/vgoes19": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "RioMaker/vben-genealogy-management": {
+        ".github/workflows/issue-close-require.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ],
+        ".github/workflows/ftp-schedule.yml": [
+            {
+                "cron": "0 20 * * *"
+            }
+        ]
+    },
+    "we2oxy/Build-Lede": {
+        ".github/workflows/x86-lede.yml": [
+            {
+                "cron": "40 18 */3 * *"
+            }
+        ],
+        ".github/workflows/R2S-lede.yml": [
+            {
+                "cron": "40 18 */5 * *"
+            }
+        ],
+        ".github/workflows/x86-lede-1701.yml": [
+            {
+                "cron": "40 18 */7 * *"
+            }
+        ]
+    },
+    "Day-Codes/YouTube-bots": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "43 9 * * 4"
+            }
+        ]
+    },
+    "DaveSkender/Stock.Indicators": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "0 10 15 * *"
+            }
+        ],
+        ".github/workflows/lock.yml": [
+            {
+                "cron": "0 5 * * 6"
+            }
+        ]
+    },
+    "ThePieBandit/optc-supports": {
+        ".github/workflows/optc-db-sync.yml": [
+            {
+                "cron": "0 */12 * * *"
+            }
+        ]
+    },
+    "s-tanoue/testt": {
+        ".github/workflows/update-swagger.yml": [
+            {
+                "cron": "0 10 * * *"
+            }
+        ]
+    },
+    "csacca/uhoo-homeassistant": {
+        ".github/workflows/pre-commit-autoupdate.yaml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "infixman/cake-bnb-alert": {
+        ".github/workflows/alert.yml": [
+            {
+                "cron": "0 * * * *"
+            }
+        ]
+    },
+    "victorandradee2/victorandradee2": {
+        ".github/workflows/cobrinha.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "Sanksu/jd_sign": {
+        ".github/workflows/work.yaml": [
+            {
+                "cron": "5 16 * * *"
+            }
+        ]
+    },
+    "mentoscfan/OpenWrt_arm64_firmware": {},
+    "Thanf-code/Autobuild-Newifi_D2": {},
+    "nicolaslopess/nicolaslopess": {
+        ".github/workflows/snake.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "liuxiao0725/R2s": {},
+    "GoogleCloudPlatform/spring-cloud-gcp": {
+        ".github/workflows/integrationTests.yaml": [
+            {
+                "cron": "05 8 * * *"
+            }
+        ]
+    },
+    "bulicmatko/codiverse-eslint-config": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "36 20 * * 6"
+            }
+        ]
+    },
+    "MaryjoRidley/01": {},
+    "NCUAppTeam/NCU-App": {
+        ".github/workflows/build.yml": [
+            {
+                "cron": "0 4 * * MON"
+            }
+        ]
+    },
+    "AntorFr/hacs-barry": {
+        ".github/workflows/cron.yaml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "zingimmick/laravel-sentry": {
+        ".github/workflows/tests.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "folio-org/folio-org.github.io": {
+        ".github/workflows/get-release-versions.yml": [
+            {
+                "cron": "20 00 * * *"
+            }
+        ],
+        ".github/workflows/gather-schema-changes.yml": [
+            {
+                "cron": "20 03 * * 1,4"
+            }
+        ]
+    },
+    "soulmachine/subredditstats": {
+        ".github/workflows/subredditstats.yaml": [
+            {
+                "cron": "0 * * * *"
+            }
+        ]
+    },
+    "msechen/script": {
+        ".github/workflows/sync-JDTASK_V2P-scripts.yml": [
+            {
+                "cron": "*/30 * * * *"
+            }
+        ]
+    },
+    "AsuncionManns/01": {},
+    "Vilhen-a/Vilhen-a": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "pyproj4/pyproj": {
+        ".github/workflows/tests.yaml": [
+            {
+                "cron": "0 0 * * 0"
+            }
+        ]
+    },
+    "fgsoap/razplus-freetrial": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "0 1 * * 3"
+            }
+        ]
+    },
+    "yjg5035/myjd": {
+        ".github/workflows/syncGit.yml": [
+            {
+                "cron": "5 */3 * * *"
+            }
+        ],
+        ".github/workflows/deploy_tencent_scf.yml": [
+            {
+                "cron": "50 */4 * * *"
+            }
+        ]
+    },
+    "Kashalls/home-cluster": {
+        ".github/workflows/renovate-schedule.yaml": [
+            {
+                "cron": "0 */12 * * *"
+            }
+        ],
+        ".github/workflows/flux-schedule.yaml": [
+            {
+                "cron": "0 12 * * *"
+            }
+        ]
+    },
+    "jauderho/sandbox": {
+        ".github/workflows/ansible.yml": [
+            {
+                "cron": "0 8 * * 1"
+            }
+        ],
+        ".github/workflows/docker-3.0.yml": [
+            {
+                "cron": "0 8 * * 1"
+            }
+        ],
+        ".github/workflows/docker-3.1dev.yml": [
+            {
+                "cron": "0 8 * * 1"
+            }
+        ]
+    },
+    "mellium/blogsync": {
+        ".github/workflows/mirror.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "JuniorMenato/Juniormenato": {
+        ".github/workflows/cobra.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "MarianaBJ/MarianaBJ": {
+        ".github/workflows/cobrinha.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ],
+        ".github/workflows/main.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "TYPO3-Documentation/tea": {
+        ".github/workflows/predefined.yml": [
+            {
+                "cron": "15 3 * * 1"
+            }
+        ],
+        ".github/workflows/ci.yml": [
+            {
+                "cron": "15 3 * * 1"
+            }
+        ]
+    },
+    "tokka2/tokka_amazon_timesale": {
+        ".github/workflows/build.yml": [
+            {
+                "cron": "30 0 * * *"
+            }
+        ]
+    },
+    "stdlib-js/stats-base-dmin": {
+        ".github/workflows/test.yml": [
+            {
+                "cron": "30 1 * * 6"
+            }
+        ]
+    },
+    "pedroescp/pedroescp": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "conda-forge/miniforge": {
+        ".github/workflows/conda_release.yml": [
+            {
+                "cron": "0 */6 * * *"
+            }
+        ],
+        ".github/workflows/autoupdate.yml": [
+            {
+                "cron": "0 */6 * * *"
+            }
+        ]
+    },
+    "carterjones/infrastructure": {
+        ".github/workflows/pre-commit-update.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "andreypiekas/andreypiekas": {},
+    "CliMA/ClimaAtmos.jl": {},
+    "LucaFilipozzi/keycloak-impersonation-policy-enforcer": {
+        ".github/workflows/analyze.yml": [
+            {
+                "cron": "24 21 * * 6"
+            }
+        ]
+    },
+    "jpanther/github-stats": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "5 0 * * *"
+            }
+        ]
+    },
+    "caio123fl/caio123fl": {
+        ".github/workflows/cobrinha.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "Daniel1107/vv-openwrt": {},
+    "carlosfallac/carlosfallac": {
+        ".github/workflows/cobrinha.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "Elierrr/BuildData": {
+        ".github/workflows/repeat.yml": [
+            {
+                "cron": "0 *,* * * *"
+            }
+        ]
+    },
+    "grazuzu/grazuzu": {
+        ".github/workflows/snaaake.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "luandadantas/flat_data_demo": {
+        ".github/workflows/flat.yml": [
+            {
+                "cron": "*/5 * * * *"
+            }
+        ]
+    },
+    "orlandomotapires/orlandomotapires": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "byfel/byfel2": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ],
+        ".github/workflows/blank.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "sdtaylor/pyUnpackQA": {
+        ".github/workflows/test-package.yml": [
+            {
+                "cron": "0 0 1 * *"
+            }
+        ]
+    },
+    "xiaochi-liu/starter-hugo-academic": {
+        ".github/workflows/updater-wip.yml": [
+            {
+                "cron": "0 0 * * 0"
+            }
+        ]
+    },
+    "chicoze2/chicoze2": {
+        ".github/workflows/blank.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ],
+        ".github/workflows/cobrinha.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "hallowauth/hallow": {
+        ".github/workflows/go-mod-tidy.yml": [
+            {
+                "cron": "0 7 * * FRI"
+            }
+        ]
+    },
+    "FITOLOPEUNSOIX/wezterm": {
+        ".github/workflows/gen_windows_continuous.yml": [
+            {
+                "cron": "10 3 * * *"
+            }
+        ],
+        ".github/workflows/gen_ubuntu18_continuous.yml": [
+            {
+                "cron": "10 3 * * *"
+            }
+        ],
+        ".github/workflows/gen_ubuntu16_continuous.yml": [
+            {
+                "cron": "10 3 * * *"
+            }
+        ],
+        ".github/workflows/gen_macos_continuous.yml": [
+            {
+                "cron": "10 3 * * *"
+            }
+        ],
+        ".github/workflows/gen_fedora31_continuous.yml": [
+            {
+                "cron": "10 3 * * *"
+            }
+        ],
+        ".github/workflows/gen_fedora32_continuous.yml": [
+            {
+                "cron": "10 3 * * *"
+            }
+        ],
+        ".github/workflows/gen_fedora34_continuous.yml": [
+            {
+                "cron": "10 3 * * *"
+            }
+        ],
+        ".github/workflows/gen_centos7_continuous.yml": [
+            {
+                "cron": "10 3 * * *"
+            }
+        ],
+        ".github/workflows/gen_debian10.3_continuous.yml": [
+            {
+                "cron": "10 3 * * *"
+            }
+        ],
+        ".github/workflows/gen_centos8_continuous.yml": [
+            {
+                "cron": "10 3 * * *"
+            }
+        ],
+        ".github/workflows/pages.yml": [
+            {
+                "cron": "50 * * * *"
+            }
+        ],
+        ".github/workflows/gen_fedora33_continuous.yml": [
+            {
+                "cron": "10 3 * * *"
+            }
+        ],
+        ".github/workflows/gen_debian11_continuous.yml": [
+            {
+                "cron": "10 3 * * *"
+            }
+        ],
+        ".github/workflows/gen_debian9.12_continuous.yml": [
+            {
+                "cron": "10 3 * * *"
+            }
+        ],
+        ".github/workflows/gen_ubuntu20.04_continuous.yml": [
+            {
+                "cron": "10 3 * * *"
+            }
+        ]
+    },
+    "zsunberg/ProjectAssigner.jl": {
+        ".github/workflows/CompatHelper.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "favware/action-npm-auto-deprecate": {
+        ".github/workflows/labelsync.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "jimbrig/jimsdots": {
+        ".github/workflows/stale.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "mcardoso3/weduka": {
+        ".github/workflows/all-tests.yml": [
+            {
+                "cron": "30 * * * *"
+            }
+        ]
+    },
+    "dcreager/controlled-option": {
+        ".github/workflows/ci.yml": [
+            {
+                "cron": "0 0 1,15 * *"
+            }
+        ]
+    },
+    "motethansen/www.motethansen.com": {
+        ".github/workflows/updater-wip.yml": [
+            {
+                "cron": "0 0 * * 0"
+            }
+        ]
+    },
+    "fsouza/channels": {
+        ".github/workflows/main.yaml": [
+            {
+                "cron": "3 1 * * 3"
+            }
+        ]
+    },
+    "AntonyRafael/AntonyRafael": {
+        ".github/workflows/snake.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "Pedroh23/pedroh23": {
+        ".github/workflows/cobrinha.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "pherval/community-server": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "20 16 * * 2"
+            }
+        ]
+    },
+    "PhiladelphiaController/data-sanitation-pickups": {
+        ".github/workflows/daily-update.yml": [
+            {
+                "cron": "0 3 * * *"
+            }
+        ]
+    },
+    "tehcyx/girc": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "0 5 * * 2"
+            }
+        ]
+    },
+    "chapdel/rshopper": {
+        ".github/workflows/tests.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "imKashyap/imKashyap": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "30 18 * * *"
+            }
+        ]
+    },
+    "Irina526/starter-hugo-academic": {
+        ".github/workflows/updater-wip.yml": [
+            {
+                "cron": "0 0 * * 0"
+            }
+        ]
+    },
+    "bluerobotics/ardusub-gitbook": {
+        ".github/workflows/htmlproofer.yaml": [
+            {
+                "cron": "0 0 */7 * *"
+            }
+        ]
+    },
+    "skirmess/XT-Files": {
+        ".github/workflows/test.yml": [
+            {
+                "cron": "5 7 11 * *"
+            }
+        ]
+    },
+    "poad/appstore-connect-jwt-generator-cli": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "MauMT/MauMT": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "Franboesa/Franboesa": {
+        ".github/workflows/cobrinha.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "submariner-io/coastguard": {
+        ".github/workflows/dependent-issues.yml": [
+            {
+                "cron": "0 0/6 * * *"
+            }
+        ]
+    },
+    "ChizzaHut/ChizzaHut": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "39 2 * * 0"
+            }
+        ]
+    },
+    "koterpillar/multiblog": {
+        ".github/workflows/main.yaml": [
+            {
+                "cron": "0 0 * * 5"
+            }
+        ]
+    },
+    "reddit/docker-bazelisk": {
+        ".github/workflows/docker-publisher.yaml": [
+            {
+                "cron": "0 18 * * 3"
+            }
+        ]
+    },
+    "ergebnis/php-package-template": {
+        ".github/workflows/renew.yaml": [
+            {
+                "cron": "0 0 1 1 *"
+            }
+        ]
+    },
+    "DoveBoy/FixUnblockNeteaseMusic": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "*/15 * * * *"
+            }
+        ]
+    },
+    "mrz1836/go-template": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "0 23 * * 0"
+            }
+        ]
+    },
+    "poad/appstore-connect-jwt-generator-core": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "liaoweiliao521/N1": {},
+    "Tyler-Yates/youtube-like-saver": {
+        ".github/workflows/tox-workflow.yml": [
+            {
+                "cron": "0 0 * * 0"
+            }
+        ]
+    },
+    "Chikuji/Chikuji": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "BeyondMark/git-actions-test": {
+        ".github/workflows/build.yml": [
+            {
+                "cron": "0 9/12 * * *"
+            }
+        ]
+    },
+    "nickbabcock/rl-web": {
+        ".github/workflows/ci.yml": [
+            {
+                "cron": "00 01 * * *"
+            }
+        ]
+    },
+    "ts-defold/types": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "0 7,19 * * *"
+            }
+        ]
+    },
+    "bchew/dockerhub": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "0 0 * * 0"
+            }
+        ]
+    },
+    "majusko/pulsar-java-spring-boot-starter": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "43 18 * * 0"
+            }
+        ]
+    },
+    "godinhojoao/godinhojoao": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "0 */12 * * *"
+            }
+        ]
+    },
+    "flixromer443/control_horario": {
+        ".github/workflows/codeql.yml": [
+            {
+                "cron": "0 0 * * 0"
+            }
+        ]
+    },
+    "davan690/github-actions-temp": {
+        ".github/workflows/main2mins.yml": [
+            {
+                "cron": "*/2 * * * *"
+            }
+        ]
+    },
+    "Naive-Ghost/BILIBILI-AI": {
+        ".github/workflows/bilibili-daily-task.yml": [
+            {
+                "cron": "0 16 * * *"
+            }
+        ]
+    },
+    "rkclement/starter-hugo-academic": {
+        ".github/workflows/updater-wip.yml": [
+            {
+                "cron": "0 0 * * 0"
+            }
+        ]
+    },
+    "Ezequiel92/julia_apps": {
+        ".github/workflows/update_deps.yml": [
+            {
+                "cron": "0 0 * * 1"
+            }
+        ]
+    },
+    "quistty/hydata": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "20 23 * * 3"
+            }
+        ]
+    },
+    "AndreBorgees/AndreBorgees": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "Douglas16180/Douglas16180": {
+        ".github/workflows/cobrinha.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "asavan/mtsderbanner": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "30 16 * * 3"
+            }
+        ]
+    },
+    "empathicqubit/empathicqubit-chocolatey": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "trevormiller6/Py-Docs-Bot": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "15 21 * * 6"
+            }
+        ]
+    },
+    "aws/amazon-ec2-metadata-mock": {
+        ".github/workflows/ci.yaml": [
+            {
+                "cron": "0 10 * * 1-5"
+            }
+        ]
+    },
+    "SolaceProducts/solace-apache-beam": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "34 18 * * 1"
+            }
+        ]
+    },
+    "ergebnis/json-schema-validator": {
+        ".github/workflows/renew.yaml": [
+            {
+                "cron": "0 0 1 1 *"
+            }
+        ]
+    },
+    "ryonakano/po-to-txt": {
+        ".github/workflows/fetch.yml": [
+            {
+                "cron": "0 15 */1 * *"
+            }
+        ]
+    },
+    "orome/crypto-enigma-hs": {
+        ".github/workflows/run-tests.yml": [
+            {
+                "cron": "0 13 15 * *"
+            }
+        ]
+    },
+    "Lctrs/php-library-skeleton": {
+        ".github/workflows/renew.yaml": [
+            {
+                "cron": "1 0 1 1 *"
+            }
+        ]
+    },
+    "apache/apisix-website": {
+        ".github/workflows/link-check.yml": [
+            {
+                "cron": "0 5 * * *"
+            }
+        ],
+        ".github/workflows/deploy.yml": [
+            {
+                "cron": "0 5 * * *"
+            }
+        ]
+    },
+    "rafaelveigasts/rafaelveigasts": {
+        ".github/workflows/blank.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ],
+        ".github/workflows/main.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "Andromeda-Stars/PublicRepoGlennTest": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "35 16 * * 1"
+            }
+        ]
+    },
+    "brayanhenao/cve-notifications-app": {},
+    "firstof9/ha-openei": {
+        ".github/workflows/cron.yaml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "3cpt/recorrente": {
+        ".github/workflows/schedule.yml": [
+            {
+                "cron": "45 0 * * *"
+            }
+        ]
+    },
+    "diddlesnaps/snapcraft-container": {
+        ".github/workflows/build-container.yml": [
+            {
+                "cron": "33 4 * * 0"
+            }
+        ]
+    },
+    "Rikj000/MoniGoMani": {
+        ".github/workflows/disco-runner.yml": [
+            {
+                "cron": "37 16,22,4,10 * * *"
+            }
+        ],
+        ".github/workflows/flake8.yml": [
+            {
+                "cron": "17 11 * * 4"
+            }
+        ]
+    },
+    "opendata-education/en_Physics": {
+        ".github/workflows/nightly.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "FlamingTuri/youtube-dl-aas": {
+        ".github/workflows/ugrade-youtube-dl.yml": [
+            {
+                "cron": "00 9 * * *"
+            }
+        ]
+    },
+    "Crazy-Marvin/sneak.page": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "15 8 * * 1"
+            }
+        ]
+    },
+    "toni-moreno/github-actions-test": {
+        ".github/workflows/nightly-docker-image.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "LuanderFarias/LuanderFarias": {
+        ".github/workflows/snake.yml": [
+            {
+                "cron": "0 */6 * * *"
+            }
+        ]
+    },
+    "Project-MONAI/MONAI": {},
+    "WekanCompany/leapjs": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "17 11 * * 6"
+            }
+        ]
+    },
+    "damoun/release": {
+        ".github/workflows/build.yml": [
+            {
+                "cron": "0 5 * * *"
+            }
+        ]
+    },
+    "invenia/FTPClient.jl": {
+        ".github/workflows/CI.yml": [
+            {
+                "cron": "0 2 * * *"
+            }
+        ]
+    },
+    "vipboddy/update-package": {
+        ".github/workflows/delete.yml": [
+            {
+                "cron": "0 6 * * 0"
+            }
+        ],
+        ".github/workflows/update-package.yml": [
+            {
+                "cron": "40 3 * * *"
+            }
+        ]
+    },
+    "bigboydiamonds/sourcecred": {
+        ".github/workflows/distribute-grain.yml": [
+            {
+                "cron": "5 0 * * 0"
+            }
+        ],
+        ".github/workflows/generate-instance.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "SwedbankPay/jekyll-plantuml-docker": {
+        ".github/workflows/apt-update.yml": [
+            {
+                "cron": "30 2 * * *"
+            }
+        ]
+    },
+    "vieiramanda/vieiramanda": {
+        ".github/workflows/snake.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "jayeshpatel8/Leetcode": {
+        ".github/workflows/sync.yml": [
+            {
+                "cron": "00 20 * * *"
+            }
+        ]
+    },
+    "emberjs/ember.js": {
+        ".github/workflows/alpha-releases.yml": [
+            {
+                "cron": "0 20 * * 3"
+            }
+        ]
+    },
+    "ansemjo/imapfetch": {
+        ".github/workflows/container.yml": [
+            {
+                "cron": "0 14 * * 1"
+            }
+        ]
+    },
+    "Libvisual/libvisual": {
+        ".github/workflows/windows.yml": [
+            {
+                "cron": "0 3 * * 5"
+            }
+        ]
+    },
+    "nzhanglab/nzhanglab": {
+        ".github/workflows/updater-wip.yml": [
+            {
+                "cron": "0 0 * * 0"
+            }
+        ]
+    },
+    "cwjohnson1/RipsererPrep.jl": {
+        ".github/workflows/CompatHelper.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "marek-hanzal/puff-smith": {
+        ".github/workflows/build.yml": [
+            {
+                "cron": "0 10 * * *"
+            }
+        ]
+    },
+    "trailofbits/siderophile": {
+        ".github/workflows/ci.yml": [
+            {
+                "cron": "0 12 * * *"
+            }
+        ]
+    },
+    "VentressAsajj/Malware": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "3 */13 * * *"
+            }
+        ]
+    },
+    "cheredin/starter-hugo-academic": {
+        ".github/workflows/updater-wip.yml": [
+            {
+                "cron": "0 0 * * 0"
+            }
+        ]
+    },
+    "ret/specifica": {
+        ".github/workflows/haskell.yml": [
+            {
+                "cron": "0 7 * * */1"
+            }
+        ]
+    },
+    "kevgllt/kevgllt": {
+        ".github/workflows/snaked.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "passionProgramerCa/jflix-final": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "34 7 * * 5"
+            }
+        ]
+    },
+    "matteobruni/tsparticles": {
+        ".github/workflows/stale.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "daniloadbusso/daniloadbusso": {
+        ".github/workflows/snake.yml": [
+            {
+                "cron": "0 3 * * 1"
+            }
+        ]
+    },
+    "silva-thiago/thiagosilva-dev": {
+        ".github/workflows/ossar-analysis.yml": [
+            {
+                "cron": "45 21 * * 3"
+            }
+        ],
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "18 19 * * 4"
+            }
+        ]
+    },
+    "vil02/nowhere_continuous_wpo": {
+        ".github/workflows/all_url_check.yml": [
+            {
+                "cron": "45 */3 * * *"
+            }
+        ]
+    },
+    "ergebnis/http-method": {
+        ".github/workflows/renew.yaml": [
+            {
+                "cron": "0 0 1 1 *"
+            }
+        ]
+    },
+    "vil02/nowhere_convex": {
+        ".github/workflows/all_url_check.yml": [
+            {
+                "cron": "35 */3 * * *"
+            }
+        ]
+    },
+    "kubernetes/minikube": {
+        ".github/workflows/update-k8s-versions.yml": [
+            {
+                "cron": "0 8 * * 1"
+            }
+        ]
+    },
+    "CliMA/LandHydrology.jl": {
+        ".github/workflows/CompatHelper.yml": [
+            {
+                "cron": "00 00 * * *"
+            }
+        ]
+    },
+    "KygekTeam/discord-bot": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "0 0/12 * * *"
+            }
+        ]
+    },
+    "vil02/academicActivities": {
+        ".github/workflows/all_url_check.yml": [
+            {
+                "cron": "25 */3 * * *"
+            }
+        ]
+    },
+    "vil02/pi2021": {
+        ".github/workflows/all_url_check.yml": [
+            {
+                "cron": "30 */3 * * *"
+            }
+        ],
+        ".github/workflows/python_test.yml": [
+            {
+                "cron": "0 */6 * * *"
+            }
+        ]
+    },
+    "ericsts/ericsts": {
+        ".github/workflows/cobrinha.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "heywoodlh/dockerfiles": {
+        ".github/workflows/buildx.yml": [
+            {
+                "cron": "0 0 * * Sun"
+            }
+        ]
+    },
+    "lukaspalermo99/lukaspalermo99": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "LucasBispoMenezes/LucasBispoMenezes": {
+        ".github/workflows/cobrinha.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "McArcady/lnp-forge": {
+        ".github/workflows/build.yml": [
+            {
+                "cron": "0 0 * * 1"
+            }
+        ]
+    },
+    "liquality/wallet": {
+        ".github/workflows/build-test.yml": [
+            {
+                "cron": "0 8 * * *"
+            },
+            {
+                "cron": "0 22 * * *"
+            }
+        ]
+    },
+    "olifre/root-install-test": {
+        ".github/workflows/test-snap.yml": [
+            {
+                "cron": "0 0 1 * *"
+            }
+        ],
+        ".github/workflows/test-snap-embedded.yml": [
+            {
+                "cron": "0 0 1 * *"
+            }
+        ],
+        ".github/workflows/test-conda-miniconda-basiccpp.yml": [
+            {
+                "cron": "0 0 1 * *"
+            }
+        ],
+        ".github/workflows/test-conda-anaconda-basiccpp.yml": [
+            {
+                "cron": "0 0 1 * *"
+            }
+        ],
+        ".github/workflows/test-conda-miniconda.yml": [
+            {
+                "cron": "0 0 1 * *"
+            }
+        ],
+        ".github/workflows/test-precompiled-tar.yml": [
+            {
+                "cron": "0 0 1 * *"
+            }
+        ],
+        ".github/workflows/test-conda-anaconda.yml": [
+            {
+                "cron": "0 0 1 * *"
+            }
+        ]
+    },
+    "kernvalley/frenchfire.kernvalley.us": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "0 19 * * 5"
+            }
+        ]
+    },
+    "BUTR/Bannerlord.Harmony": {
+        ".github/workflows/check-version.yml": [
+            {
+                "cron": "0 */1 * * *"
+            }
+        ]
+    },
+    "hansmi/prometheus-textformat-merge": {
+        ".github/workflows/ci.yaml": [
+            {
+                "cron": "35 15 */9 * *"
+            }
+        ]
+    },
+    "minton55/security-strategy-essentials": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "16 17 * * 5"
+            }
+        ]
+    },
+    "friedrith/node-wifi": {
+        ".github/workflows/lock.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "micqmicq/3D_Printer_config": {
+        ".github/workflows/close-stale.yml": [
+            {
+                "cron": "22 1 * * *"
+            }
+        ],
+        ".github/workflows/lock-closed.yml": [
+            {
+                "cron": "0 1/13 * * *"
+            }
+        ],
+        ".github/workflows/bump-date.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "Jyothi-Jaci/starter-hugo-academic": {
+        ".github/workflows/updater-wip.yml": [
+            {
+                "cron": "0 0 * * 0"
+            }
+        ]
+    },
+    "juliencrn/awesome-stars": {
+        ".github/workflows/starred.yml": [
+            {
+                "cron": "30 0 * * *"
+            }
+        ]
+    },
+    "kamaz/terraform-provider-kamaz": {},
+    "aa-fiu-classes/cnt-4713-web": {
+        ".github/workflows/build-and-deploy.yml": [
+            {
+                "cron": "30 5,17 * * *"
+            }
+        ]
+    },
+    "BRodrigo/BRodrigo": {
+        ".github/workflows/cobrinha.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "hspaans/ansible-role-template": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "38 5 * * 2"
+            }
+        ],
+        ".github/workflows/ansible-ci.yml": [
+            {
+                "cron": "3 7 17 * *"
+            }
+        ]
+    },
+    "atomfinger/resume": {
+        ".github/workflows/update_calendar.yml": [
+            {
+                "cron": "30 1 * * *"
+            }
+        ]
+    },
+    "Qiskit/qiskit-finance": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "0 1 * * *"
+            }
+        ]
+    },
+    "contributte/thepay": {
+        ".github/workflows/main.yaml": [
+            {
+                "cron": "0 8 * * 1"
+            }
+        ]
+    },
+    "intech/socket.io-cbor-x-parser": {
+        ".github/workflows/ci.yml": [
+            {
+                "cron": "0 0 * * 0"
+            }
+        ]
+    },
+    "aio-libs/aiohttp-devtools": {
+        ".github/workflows/ci.yml": [
+            {
+                "cron": "0 6 * * *"
+            }
+        ]
+    },
+    "releasemaker/drake": {
+        ".github/workflows/bundle_update.yml": [
+            {
+                "cron": "0 13 1,15 * *"
+            }
+        ]
+    },
+    "legnoh/uma-friend": {
+        ".github/workflows/post.yml": [
+            {
+                "cron": "0 12 * * *"
+            }
+        ]
+    },
+    "arttet/cpp-project-template": {
+        ".github/workflows/workflow.yml": [
+            {
+                "cron": "0 0 * * 1"
+            }
+        ]
+    },
+    "biegl/web-abfaltersbach-at": {
+        ".github/workflows/test.yml": [
+            {
+                "cron": "0 2 * * *"
+            }
+        ]
+    },
+    "beardster/beardster": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "18 9 * * 0"
+            }
+        ]
+    },
+    "legnoh/uma-tweet": {
+        ".github/workflows/tweet.yml": [
+            {
+                "cron": "0 12 * * *"
+            }
+        ]
+    },
+    "cannin/bottom_fish": {
+        ".github/workflows/run.yml": [
+            {
+                "cron": "15 8,19 * * *"
+            }
+        ]
+    },
+    "Igorx8/Igorx8": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "Qiskit/qiskit-machine-learning": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "0 1 * * *"
+            }
+        ]
+    },
+    "ergebnis/json-normalizer": {
+        ".github/workflows/renew.yaml": [
+            {
+                "cron": "0 0 1 1 *"
+            }
+        ]
+    },
+    "kzollove/scheduled_publish": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "0 14 24 * *"
+            }
+        ]
+    },
+    "manjaro-pinephone/phosh": {},
+    "elcweb/docker-php": {
+        ".github/workflows/php74.yml": [
+            {
+                "cron": "0 0 * * 0"
+            }
+        ],
+        ".github/workflows/php80.yml": [
+            {
+                "cron": "0 0 * * 0"
+            }
+        ]
+    },
+    "ergebnis/php-cs-fixer-config-template": {
+        ".github/workflows/renew.yaml": [
+            {
+                "cron": "0 0 1 1 *"
+            }
+        ]
+    },
+    "tjololo/nuget-dependencies-update": {
+        ".github/workflows/update-deps.yaml": [
+            {
+                "cron": "0 8 * * 4"
+            }
+        ],
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "30 22 * * 1"
+            }
+        ]
+    },
+    "conda/conda": {
+        ".github/workflows/ci-images.yml": [
+            {
+                "cron": "0 0 * * 0"
+            }
+        ]
+    },
+    "pietr1n/pietr1n": {
+        ".github/workflows/snake.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "supportpal/github-gh-cli": {
+        ".github/workflows/schedule.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "jasonajones73/elgl-cityhallselfie": {
+        ".github/workflows/getTweets.yaml": [
+            {
+                "cron": "30 * * * *"
+            }
+        ]
+    },
+    "gircore/gir.core": {
+        ".github/workflows/dotnet-format-daily.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "aws-samples/aws-next-generation-microservices-dotnet-5-grpc": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "20 18 * * 0"
+            }
+        ]
+    },
+    "AshileySabah/blog-cakephp": {
+        ".github/workflows/stale.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "arxanas/git-branchless": {
+        ".github/workflows/linux-git-devel.yml": [
+            {
+                "cron": "40 6 * * *"
+            }
+        ]
+    },
+    "figmentdragon/architecture": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "26 22 * * 5"
+            }
+        ]
+    },
+    "shiptest-ss13/Shiptest": {
+        ".github/workflows/stale.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "levilimas/levilimas": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "miquelvir/centrifuga4": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "15 15 * * 6"
+            }
+        ]
+    },
+    "MACH2Simulations/QuackAPI_V3": {
+        ".github/workflows/codacy-analysis.yml": [
+            {
+                "cron": "27 11 * * 4"
+            }
+        ],
+        ".github/workflows/devskim-analysis.yml": [
+            {
+                "cron": "44 18 * * 6"
+            }
+        ],
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "26 23 * * 4"
+            }
+        ]
+    },
+    "Drete457/alphaobservatorymanagementsystem": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "23 5 * * 1"
+            }
+        ]
+    },
+    "gary-mcmonagle/PSFinder": {
+        ".github/workflows/run.yaml": [
+            {
+                "cron": "0 7,9,12,15,21 * * *"
+            }
+        ]
+    },
+    "luizaguiar84/luizaguiar84": {
+        ".github/workflows/snake.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "IEDB/MRO": {
+        ".github/workflows/refresh-hla.yml": [
+            {
+                "cron": "0 0 * * 0"
+            }
+        ]
+    },
+    "truecharts/apps": {
+        ".github/workflows/housekeeping.yaml": [
+            {
+                "cron": "0 3 * * *"
+            }
+        ]
+    },
+    "Qiskit/qiskit-optimization": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "0 1 * * *"
+            }
+        ]
+    },
+    "platan/idea-gradle-dependencies-formatter": {
+        ".github/workflows/build.yml": [
+            {
+                "cron": "0 8 * * *"
+            }
+        ]
+    },
+    "denosaurs/deps.index": {
+        ".github/workflows/bors.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "ChevryGames/cg-math": {
+        ".github/workflows/dependent-issues.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "cjlapao/angular-electron-template": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "41 2 * * 0"
+            }
+        ]
+    },
+    "sopov/resumeio2pdf": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "43 20 * * 5"
+            }
+        ]
+    },
+    "flsy/react-mapycz": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "34 6 * * 2"
+            }
+        ]
+    },
+    "madewithfelt/flutter_layout_grid": {
+        ".github/workflows/flutter-test.yml": [
+            {
+                "cron": "0 4 * * *"
+            }
+        ]
+    },
+    "pawan-nandakishore/risk-calc-data-push": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "0 1 * * *"
+            }
+        ]
+    },
+    "zhizhizi69/wechatytest": {
+        ".github/workflows/node.js.yml": [
+            {
+                "cron": "0 5 * * 0"
+            }
+        ]
+    },
+    "garvit-joshi/Redux": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "19 11 * * 4"
+            }
+        ]
+    },
+    "ThePalaceProject/circulation-admin": {
+        ".github/workflows/sync.yml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ]
+    },
+    "cds-amal/fzf-eip": {
+        ".github/workflows/nodejs.yml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "Lemon109/unicom": {
+        ".github/workflows/auto_clean_workflows.yml": [
+            {
+                "cron": "0 0 * * 0"
+            }
+        ],
+        ".github/workflows/main.yml": [
+            {
+                "cron": "*/30 22,23 * * *"
+            }
+        ],
+        ".github/workflows/auto_handle_issue.yml": [
+            {
+                "cron": "0 0 * * 0"
+            }
+        ],
+        ".github/workflows/main2.yml": [
+            {
+                "cron": "*/30 22,23 * * *"
+            }
+        ],
+        ".github/workflows/sync_fork.yml": [
+            {
+                "cron": "0 1 * * 1,3,5"
+            }
+        ]
+    },
+    "MakingSense/mailerq-dotnet-sdk": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "39 10 * * 5"
+            }
+        ]
+    },
+    "rohitsakala/strategies": {
+        ".github/workflows/rohit_twelve_thirty.yml": [
+            {
+                "cron": "30 6 * * *"
+            }
+        ]
+    },
+    "tsouza85/nextdns": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "5 4 * * 2"
+            }
+        ]
+    },
+    "fluree/db": {
+        ".github/workflows/ci.yml": [
+            {
+                "cron": "13 01 * * *"
+            }
+        ]
+    },
+    "ThePalaceProject/web-patron": {
+        ".github/workflows/sync.yml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ]
+    },
+    "reg1717/op-lean-armv8": {},
+    "ThePalaceProject/library-registry-admin": {
+        ".github/workflows/sync.yml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ]
+    },
+    "pydata/xarray": {
+        ".github/workflows/upstream-dev-ci.yaml": [
+            {
+                "cron": "0 0 * * *"
+            }
+        ]
+    },
+    "KingPin/caddy-docker-cloudflaredns": {
+        ".github/workflows/docker-publish.yml": [
+            {
+                "cron": "31 16 * * 1"
+            }
+        ]
+    },
+    "micronaut-projects/micronaut-elasticsearch": {
+        ".github/workflows/dependency-update.yml": [
+            {
+                "cron": "0 4 * * SUN"
+            }
+        ]
+    },
+    "ThePalaceProject/circulation-core": {
+        ".github/workflows/sync.yml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ]
+    },
+    "ufop-bcc328/trivia-semantic": {
+        ".github/workflows/workflow.yml": [
+            {
+                "cron": "0 1 * * MON"
+            }
+        ]
+    },
+    "matteobaccan/FolderCtl": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "0 1 * * 5"
+            }
+        ]
+    },
+    "matteobaccan/FantaSoccerAsta": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "0 1 * * 5"
+            }
+        ]
+    },
+    "robsonbs/robsonbs": {
+        ".github/workflows/cobrinha.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "glotzerlab/freud-examples": {
+        ".github/workflows/test.yml": [
+            {
+                "cron": "0 18 * * 1"
+            }
+        ]
+    },
+    "Estyms/Drunk-Venti": {
+        ".github/workflows/codacy-analysis.yml": [
+            {
+                "cron": "22 23 * * 6"
+            }
+        ],
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "19 5 * * 0"
+            }
+        ]
+    },
+    "newrelic/docs-website": {
+        ".github/workflows/fetch-swiftype-content.yml": [
+            {
+                "cron": "0 0 * * 1,4"
+            }
+        ]
+    },
+    "PollyanaOliveira/PollyanaOliveira": {
+        ".github/workflows/snake.yml": [
+            {
+                "cron": "* */12 * * *"
+            }
+        ]
+    },
+    "JinsoRaj/TasKit": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "19 11 * * 5"
+            }
+        ]
+    },
+    "grid-parity-exchange/Prescient": {
+        ".github/workflows/main_tests.yml": [
+            {
+                "cron": "0 8 * * *"
+            }
+        ]
+    },
+    "milgradesec/listmgr": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "25 0 * * 5"
+            }
+        ]
+    },
+    "JacobLinCool/Myself-BBS-API": {
+        ".github/workflows/build_data.yml": [
+            {
+                "cron": "0 */4 * * *"
+            }
+        ]
+    },
+    "GreatSFBooks/apollo-demo": {
+        ".github/workflows/client_test.yml": [
+            {
+                "cron": "*/5 * * * *"
+            }
+        ]
+    },
+    "milgradesec/qrgen": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "25 0 * * 5"
+            }
+        ]
+    },
+    "ivankatliarchuk/.github": {
+        ".github/workflows/renovate.yml": [
+            {
+                "cron": "0 6 * * 5"
             }
         ]
     }
