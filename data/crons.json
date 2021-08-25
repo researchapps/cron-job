@@ -606,9 +606,9 @@
         ]
     },
     "emfcamp/Website": {
-        ".github/workflows/base.yml": [
+        ".github/workflows/codeql-analysis.yml": [
             {
-                "cron": "30 5 */14 * *"
+                "cron": "0 19 * * 6"
             }
         ]
     },
@@ -38584,6 +38584,26 @@
             }
         ],
         ".github/workflows/fedora.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/ubuntu.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/ubuntu_16.04.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/debian.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/debian_9.yaml": [
             {
                 "cron": "0 7 * * *"
             }
