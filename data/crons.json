@@ -38607,6 +38607,11 @@
             {
                 "cron": "0 7 * * *"
             }
+        ],
+        ".github/workflows/pypy2.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
         ]
     },
     "TenkaiD16/a_main": {
