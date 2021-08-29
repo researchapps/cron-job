@@ -59212,5 +59212,17 @@
                 "cron": "20 2 * * 2"
             }
         ]
+    },
+    "HariSekhon/pylib": {
+        ".github/workflows/python3.7.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/pypy3.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ]
     }
 }
