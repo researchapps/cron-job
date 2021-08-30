@@ -6032,11 +6032,6 @@
         ]
     },
     "JuliaGeometry/Meshing.jl": {
-        ".github/workflows/CompatHelper.yml": [
-            {
-                "cron": "00 00 * * *"
-            }
-        ],
         ".github/workflows/TagBot.yml": [
             {
                 "cron": "0 * * * *"
@@ -59220,6 +59215,26 @@
             }
         ],
         ".github/workflows/pypy3.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/python3.5.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/fedora.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/debian_8.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/debian_10.yaml": [
             {
                 "cron": "0 7 * * *"
             }
