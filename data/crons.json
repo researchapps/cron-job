@@ -4997,11 +4997,6 @@
         ]
     },
     "getsentry/sentry-docs": {
-        ".github/workflows/license.yml": [
-            {
-                "cron": "0 17 15 * *"
-            }
-        ],
         ".github/workflows/lock.yml": [
             {
                 "cron": "13 3 * * *"
@@ -59235,6 +59230,56 @@
             }
         ],
         ".github/workflows/debian_10.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/ubuntu_github.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/alpine_3.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/pypy2.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/centos7.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/python2.7.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/python3.8.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/debian_9.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/ubuntu_14.04.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/python3.6.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/centos8.yaml": [
             {
                 "cron": "0 7 * * *"
             }
