@@ -59283,6 +59283,41 @@
             {
                 "cron": "0 7 * * *"
             }
+        ],
+        ".github/workflows/mac.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/debian.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/ubuntu_16.04.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/ubuntu_20.04.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/ubuntu_18.04.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/alpine.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/mac_10.15.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
         ]
     }
 }
