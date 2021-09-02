@@ -4766,11 +4766,6 @@
             {
                 "cron": "00 * * * *"
             }
-        ],
-        ".github/workflows/TagBot.yml": [
-            {
-                "cron": "0 * * * *"
-            }
         ]
     },
     "pytest-dev/pytest-testinfra": {
@@ -59317,6 +59312,51 @@
         ".github/workflows/mac_10.15.yaml": [
             {
                 "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/ubuntu.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ],
+        ".github/workflows/centos.yaml": [
+            {
+                "cron": "0 7 * * *"
+            }
+        ]
+    },
+    "fplll/fpylll": {
+        ".github/workflows/sdist.yml": [
+            {
+                "cron": "0 0 * * 0"
+            }
+        ]
+    },
+    "KristofferC/NearestNeighbors.jl": {
+        ".github/workflows/TagBot.yml": [
+            {
+                "cron": "0 * * * *"
+            }
+        ]
+    },
+    "ricardogarfe/sonar-java-code-smells": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "0 18 * * 4"
+            }
+        ]
+    },
+    "yetanotherchris/Choco-chromedriver": {
+        ".github/workflows/main.yml": [
+            {
+                "cron": "0 */4 * * *"
+            }
+        ]
+    },
+    "lchrusciel/ApiTestCase": {
+        ".github/workflows/build.yml": [
+            {
+                "cron": "0 1 * * 6"
             }
         ]
     }
