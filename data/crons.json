@@ -2385,7 +2385,13 @@
             }
         ]
     },
-    "LibreCat/Catmandu-BibTeX": {},
+    "LibreCat/Catmandu-BibTeX": {
+        ".github/workflows/stale.yml": [
+            {
+                "cron": "30 1 * * *"
+            }
+        ]
+    },
     "nlohmann/json": {
         ".github/workflows/codeql-analysis.yml": [
             {
