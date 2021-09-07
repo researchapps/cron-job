@@ -59511,5 +59511,36 @@
                 "cron": "0 0 * * 0"
             }
         ]
+    },
+    "apache/unomi": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "38 1 * * 0"
+            }
+        ]
+    },
+    "bbs-io/syncterm-windows": {
+        ".github/workflows/cleanup.yml": [
+            {
+                "cron": "0 13 * * *"
+            }
+        ],
+        ".github/workflows/release.yml": [
+            {
+                "cron": "0 12 * * *"
+            }
+        ]
+    },
+    "oemof/oemof-solph": {
+        ".github/workflows/tox_pytests.yml": [
+            {
+                "cron": "0 5 * * 6"
+            }
+        ],
+        ".github/workflows/tox_checks.yml": [
+            {
+                "cron": "0 5 * * 6"
+            }
+        ]
     }
 }

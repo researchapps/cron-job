@@ -21,7 +21,7 @@
     "Every 6 hours": 62,
     "At 04:00 every day": 57,
     "At 5 minutes past the hour, every 3 hours": 57,
-    "At 12:00 every day": 50,
+    "At 12:00 every day": 51,
     "At 20:00 every day": 49,
     "Every 30 minutes": 48,
     "At 16:00 every day": 47,
@@ -92,6 +92,7 @@
     "At 03:49 PM, 11:49 PM, 04:49 AM and 11:49 AM": 11,
     "At 16:15 every day": 11,
     "At 04:59 PM, 03:59 AM and 11:59 AM": 11,
+    "At 13:00 every day": 11,
     "Every minute, every 24 hours": 11,
     "At 14:00 every day": 11,
     "At 04:00 PM and 04:00 AM, between day 1 and 31 of the month, only in July": 11,
@@ -112,7 +113,6 @@
     "At 00:00 AM and 12:00 PM": 10,
     "Every 18 hours": 10,
     "At 00:00 every Saturday": 10,
-    "At 13:00 every day": 10,
     "At 10 minutes past the hour, every 2 hours": 10,
     "At 10 minutes past the hour, every 4 hours": 10,
     "At 11:00 every Saturday": 10,
@@ -208,6 +208,7 @@
     "At 03:00 every Monday": 5,
     "At 13:00 every Wednesday": 5,
     "At 07:00 every Tuesday": 5,
+    "At 05:00 every Saturday": 5,
     "At 00:00 AM, only on Sunday": 5,
     "At 10:00 every Monday": 5,
     "At 02:00 every Sunday": 5,
@@ -317,7 +318,6 @@
     "At 03:00 every Sunday": 3,
     "At 17:00 every Sunday": 3,
     "At 02:00 every Wednesday": 3,
-    "At 05:00 every Saturday": 3,
     "At 23:00 every Thursday": 3,
     "At 03:00 every Friday": 3,
     "At 13:00 every Sunday": 3,
@@ -2131,5 +2131,6 @@
     "At 19:00 every Monday, Wednesday and Friday": 1,
     "At 05:27 every Monday": 1,
     "At 15:36 every Wednesday": 1,
-    "At 11:38 every Thursday": 1
+    "At 11:38 every Thursday": 1,
+    "At 01:38 every Sunday": 1
 }
