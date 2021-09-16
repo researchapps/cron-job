@@ -77180,5 +77180,19 @@
                 "cron": "0 1 * * *"
             }
         ]
+    },
+    "analysis-tools-dev/static-analysis": {
+        ".github/workflows/stale.yml": [
+            {
+                "cron": "0 4 * * *"
+            }
+        ]
+    },
+    "devconfza/Website_DevConf": {
+        ".github/workflows/codeql-analysis.yml": [
+            {
+                "cron": "0 1 * * 3"
+            }
+        ]
     }
 }
